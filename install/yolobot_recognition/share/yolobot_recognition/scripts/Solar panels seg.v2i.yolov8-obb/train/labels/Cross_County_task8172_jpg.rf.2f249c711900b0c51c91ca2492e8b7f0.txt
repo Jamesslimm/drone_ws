@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Cross_County_task8172_jpg.rf.2f249c711900b0c51c91ca2492e8b7f0.txt

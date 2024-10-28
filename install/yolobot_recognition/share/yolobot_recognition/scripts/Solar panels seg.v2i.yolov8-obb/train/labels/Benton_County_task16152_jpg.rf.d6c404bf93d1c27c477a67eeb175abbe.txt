@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Benton_County_task16152_jpg.rf.d6c404bf93d1c27c477a67eeb175abbe.txt

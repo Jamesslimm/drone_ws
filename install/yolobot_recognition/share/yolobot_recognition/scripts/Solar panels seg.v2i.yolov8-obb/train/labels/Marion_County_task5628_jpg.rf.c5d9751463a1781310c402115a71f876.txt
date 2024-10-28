@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Marion_County_task5628_jpg.rf.c5d9751463a1781310c402115a71f876.txt

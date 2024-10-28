@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/2663-N-Firewood-Dr_Fayetteville_AR-72703_United-States_t21115_jpg.rf.2263139e2e4f7cd332239aa1040b2bfc.txt

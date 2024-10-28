@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Clay_County_task2715_jpg.rf.dc40a0b45159f8d53c3d0a50c0da58e1.txt

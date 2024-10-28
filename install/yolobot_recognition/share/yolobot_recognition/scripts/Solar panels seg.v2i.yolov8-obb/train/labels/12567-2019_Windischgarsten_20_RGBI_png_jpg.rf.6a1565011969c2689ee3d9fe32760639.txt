@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/12567-2019_Windischgarsten_20_RGBI_png_jpg.rf.6a1565011969c2689ee3d9fe32760639.txt

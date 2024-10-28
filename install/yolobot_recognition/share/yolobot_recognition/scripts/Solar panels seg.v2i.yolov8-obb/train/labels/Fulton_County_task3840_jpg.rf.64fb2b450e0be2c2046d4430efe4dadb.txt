@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Fulton_County_task3840_jpg.rf.64fb2b450e0be2c2046d4430efe4dadb.txt

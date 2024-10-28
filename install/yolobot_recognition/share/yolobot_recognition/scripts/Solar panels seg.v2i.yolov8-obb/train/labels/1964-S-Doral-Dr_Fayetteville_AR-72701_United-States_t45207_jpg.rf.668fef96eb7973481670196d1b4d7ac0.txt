@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/1964-S-Doral-Dr_Fayetteville_AR-72701_United-States_t45207_jpg.rf.668fef96eb7973481670196d1b4d7ac0.txt

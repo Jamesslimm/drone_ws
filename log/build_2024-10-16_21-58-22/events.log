@@ -1,0 +1,536 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (sjtu_drone_bringup) JobQueued: {'identifier': 'sjtu_drone_bringup', 'dependencies': OrderedDict()}
+[0.000271] (sjtu_drone_control) JobQueued: {'identifier': 'sjtu_drone_control', 'dependencies': OrderedDict()}
+[0.000298] (sjtu_drone_description) JobQueued: {'identifier': 'sjtu_drone_description', 'dependencies': OrderedDict()}
+[0.000333] (sjtu_drone_bringup) JobStarted: {'identifier': 'sjtu_drone_bringup'}
+[0.005541] (sjtu_drone_control) JobStarted: {'identifier': 'sjtu_drone_control'}
+[0.009050] (sjtu_drone_description) JobStarted: {'identifier': 'sjtu_drone_description'}
+[0.099520] (-) TimerEvent: {}
+[0.199876] (-) TimerEvent: {}
+[0.291962] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'cmake'}
+[0.292074] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '/home/james/drone_ws/src/drone_ros2/sjtu_drone_description', '-DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/sjtu_drone_description'], 'cwd': '/home/james/drone_ws/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'james'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/james'), ('OLDPWD', '/home/james/drone_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('MANAGERPID', '1900'), ('SYSTEMD_EXEC_PID', '2591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19921'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/james/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'james'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:11941'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'james'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/james/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/james/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2276,unix/victus:/tmp/.ICE-unix/2276'), ('INVOCATION_ID', 'f7f6e57f8f534fabab0c43b6e6c4fb55'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/follow_waypoints:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:01084a67-abc5-4413-ac87-2ab249f63ca3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/james/drone_ws/build/sjtu_drone_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/james/turtlebot3_ws/build/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/james/turtlebot3_ws/build/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/james/turtlebot3_ws/build/follow_waypoints:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble')]), 'shell': False}
+[0.299980] (-) TimerEvent: {}
+[0.340547] (sjtu_drone_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.388133] (sjtu_drone_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.396326] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400084] (-) TimerEvent: {}
+[0.445966] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.450908] (sjtu_drone_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.451216] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.451460] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.453460] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500180] (-) TimerEvent: {}
+[0.512234] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.517868] (sjtu_drone_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.518562] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.518704] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.523764] (sjtu_drone_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.524376] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.536715] (sjtu_drone_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.570944] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE-Terrain'\n"}
+[0.582030] (sjtu_drone_description) StdoutLine: {'line': b'--   Found OGRE-Terrain, version 1.9.0\n'}
+[0.600358] (-) TimerEvent: {}
+[0.612894] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.644930] (sjtu_drone_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/sjtu_drone_bringup', 'build', '--build-base', '/home/james/drone_ws/build/sjtu_drone_bringup/build', 'install', '--record', '/home/james/drone_ws/build/sjtu_drone_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/james/drone_ws/src/drone_ros2/sjtu_drone_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'james', 'LC_TIME': 'ms_MY.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/james', 'OLDPWD': '/home/james/drone_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ms_MY.UTF-8', 'MANAGERPID': '1900', 'SYSTEMD_EXEC_PID': '2591', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19921', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/james/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'james', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'JOURNAL_STREAM': '8:11941', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'james', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/lib/ccache:/home/james/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/james/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/victus:@/tmp/.ICE-unix/2276,unix/victus:/tmp/.ICE-unix/2276', 'INVOCATION_ID': 'f7f6e57f8f534fabab0c43b6e6c4fb55', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ms_MY.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ms_MY.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/follow_waypoints:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ms_MY.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:01084a67-abc5-4413-ac87-2ab249f63ca3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_MEASUREMENT': 'ms_MY.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/opt/ros/humble/share', 'LC_IDENTIFICATION': 'ms_MY.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/james/drone_ws/build/sjtu_drone_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/james/drone_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/james/turtlebot3_ws/build/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/james/turtlebot3_ws/build/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/james/turtlebot3_ws/build/follow_waypoints:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ms_MY.UTF-8', 'LC_PAPER': 'ms_MY.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk'}, 'shell': False}
+[0.652103] (sjtu_drone_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/sjtu_drone_control', 'build', '--build-base', '/home/james/drone_ws/build/sjtu_drone_control/build', 'install', '--record', '/home/james/drone_ws/build/sjtu_drone_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/james/drone_ws/src/drone_ros2/sjtu_drone_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'james', 'LC_TIME': 'ms_MY.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/james', 'OLDPWD': '/home/james/drone_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ms_MY.UTF-8', 'MANAGERPID': '1900', 'SYSTEMD_EXEC_PID': '2591', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19921', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/james/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'james', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'JOURNAL_STREAM': '8:11941', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'james', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/lib/ccache:/home/james/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/james/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/victus:@/tmp/.ICE-unix/2276,unix/victus:/tmp/.ICE-unix/2276', 'INVOCATION_ID': 'f7f6e57f8f534fabab0c43b6e6c4fb55', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ms_MY.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ms_MY.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/follow_waypoints:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ms_MY.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:01084a67-abc5-4413-ac87-2ab249f63ca3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_MEASUREMENT': 'ms_MY.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/opt/ros/humble/share', 'LC_IDENTIFICATION': 'ms_MY.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/james/drone_ws/build/sjtu_drone_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/james/drone_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/home/james/turtlebot3_ws/build/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/james/turtlebot3_ws/build/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/james/turtlebot3_ws/build/follow_waypoints:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ms_MY.UTF-8', 'LC_PAPER': 'ms_MY.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk'}, 'shell': False}
+[0.700513] (-) TimerEvent: {}
+[0.750684] (sjtu_drone_bringup) StderrLine: {'line': b"/home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.750892] (sjtu_drone_bringup) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.755985] (sjtu_drone_control) StderrLine: {'line': b"/home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.756186] (sjtu_drone_control) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.800710] (-) TimerEvent: {}
+[0.810222] (sjtu_drone_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[0.810576] (sjtu_drone_bringup) StdoutLine: {'line': b'creating ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info\n'}
+[0.815964] (sjtu_drone_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.816269] (sjtu_drone_control) StdoutLine: {'line': b'creating ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info\n'}
+[0.819794] (sjtu_drone_bringup) StdoutLine: {'line': b'writing ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO\n'}
+[0.820088] (sjtu_drone_bringup) StdoutLine: {'line': b'writing dependency_links to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt\n'}
+[0.820244] (sjtu_drone_bringup) StdoutLine: {'line': b'writing entry points to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt\n'}
+[0.820435] (sjtu_drone_bringup) StdoutLine: {'line': b'writing requirements to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt\n'}
+[0.820515] (sjtu_drone_bringup) StdoutLine: {'line': b'writing top-level names to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt\n'}
+[0.820561] (sjtu_drone_bringup) StdoutLine: {'line': b"writing manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.825782] (sjtu_drone_control) StdoutLine: {'line': b'writing ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/PKG-INFO\n'}
+[0.825898] (sjtu_drone_control) StdoutLine: {'line': b'writing dependency_links to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/dependency_links.txt\n'}
+[0.826211] (sjtu_drone_control) StdoutLine: {'line': b'writing entry points to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/entry_points.txt\n'}
+[0.826307] (sjtu_drone_control) StdoutLine: {'line': b'writing requirements to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/requires.txt\n'}
+[0.826348] (sjtu_drone_control) StdoutLine: {'line': b'writing top-level names to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/top_level.txt\n'}
+[0.826427] (sjtu_drone_control) StdoutLine: {'line': b"writing manifest file '../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[0.841215] (sjtu_drone_bringup) StdoutLine: {'line': b"reading manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.841881] (sjtu_drone_bringup) StdoutLine: {'line': b"writing manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.841988] (sjtu_drone_bringup) StdoutLine: {'line': b'running build\n'}
+[0.842223] (sjtu_drone_bringup) StdoutLine: {'line': b'running build_py\n'}
+[0.842317] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/james/drone_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup\n'}
+[0.842509] (sjtu_drone_bringup) StdoutLine: {'line': b'copying sjtu_drone_bringup/spawn_drone.py -> /home/james/drone_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup\n'}
+[0.842609] (sjtu_drone_bringup) StdoutLine: {'line': b'copying sjtu_drone_bringup/__init__.py -> /home/james/drone_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup\n'}
+[0.842684] (sjtu_drone_bringup) StdoutLine: {'line': b'running install\n'}
+[0.845768] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[0.847412] (sjtu_drone_control) StdoutLine: {'line': b"reading manifest file '../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[0.848232] (sjtu_drone_control) StdoutLine: {'line': b"writing manifest file '../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[0.848316] (sjtu_drone_control) StdoutLine: {'line': b'running build\n'}
+[0.848364] (sjtu_drone_control) StdoutLine: {'line': b'running build_py\n'}
+[0.848434] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control\n'}
+[0.848666] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/teleop.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control\n'}
+[0.848759] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/open_loop_control.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control\n'}
+[0.848839] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/teleop_joystick.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control\n'}
+[0.848877] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/__init__.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control\n'}
+[0.848917] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/drone_position_control.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control\n'}
+[0.848977] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils\n'}
+[0.849074] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/drone_utils/controllers.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils\n'}
+[0.849181] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/drone_utils/__init__.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils\n'}
+[0.849219] (sjtu_drone_control) StdoutLine: {'line': b'copying sjtu_drone_control/drone_utils/drone_object.py -> /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils\n'}
+[0.849497] (sjtu_drone_control) StdoutLine: {'line': b'running install\n'}
+[0.852625] (sjtu_drone_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.855563] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup\n'}
+[0.855640] (sjtu_drone_bringup) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup/spawn_drone.py -> /home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup\n'}
+[0.855678] (sjtu_drone_bringup) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup/__init__.py -> /home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup\n'}
+[0.855916] (sjtu_drone_bringup) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup/spawn_drone.py to spawn_drone.cpython-310.pyc\n'}
+[0.856330] (sjtu_drone_bringup) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup/__init__.py to __init__.cpython-310.pyc\n'}
+[0.856410] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_data\n'}
+[0.856599] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_bringup/share/ament_index/resource_index/packages\n'}
+[0.856717] (sjtu_drone_bringup) StdoutLine: {'line': b'copying resource/sjtu_drone_bringup -> /home/james/drone_ws/install/sjtu_drone_bringup/share/ament_index/resource_index/packages\n'}
+[0.856782] (sjtu_drone_bringup) StdoutLine: {'line': b'copying package.xml -> /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup\n'}
+[0.856836] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[0.856884] (sjtu_drone_bringup) StdoutLine: {'line': b'copying launch/sjtu_drone_bringup.launch.py -> /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[0.856963] (sjtu_drone_bringup) StdoutLine: {'line': b'copying launch/sjtu_drone_gazebo.launch.py -> /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[0.857033] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz\n'}
+[0.857113] (sjtu_drone_bringup) StdoutLine: {'line': b'copying rviz/rviz.rviz -> /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz\n'}
+[0.857196] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config\n'}
+[0.857274] (sjtu_drone_bringup) StdoutLine: {'line': b'copying config/drone.yaml -> /home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config\n'}
+[0.857319] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.862370] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control\n'}
+[0.862430] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control\n'}
+[0.862508] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/open_loop_control.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control\n'}
+[0.862569] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop_joystick.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control\n'}
+[0.862624] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/__init__.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control\n'}
+[0.862677] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_position_control.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control\n'}
+[0.862769] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils\n'}
+[0.862875] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils/controllers.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils\n'}
+[0.862946] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils/__init__.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils\n'}
+[0.863005] (sjtu_drone_control) StdoutLine: {'line': b'copying /home/james/drone_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils/drone_object.py -> /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils\n'}
+[0.863419] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop.py to teleop.cpython-310.pyc\n'}
+[0.864103] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/open_loop_control.py to open_loop_control.cpython-310.pyc\n'}
+[0.865283] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop_joystick.py to teleop_joystick.cpython-310.pyc\n'}
+[0.865593] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/__init__.py to __init__.cpython-310.pyc\n'}
+[0.865698] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_position_control.py to drone_position_control.cpython-310.pyc\n'}
+[0.865961] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils/controllers.py to controllers.cpython-310.pyc\n'}
+[0.866273] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils/__init__.py to __init__.cpython-310.pyc\n'}
+[0.866375] (sjtu_drone_control) StdoutLine: {'line': b'byte-compiling /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils/drone_object.py to drone_object.cpython-310.pyc\n'}
+[0.867348] (sjtu_drone_control) StdoutLine: {'line': b'running install_data\n'}
+[0.867520] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/james/drone_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages\n'}
+[0.867663] (sjtu_drone_control) StdoutLine: {'line': b'copying resource/sjtu_drone_control -> /home/james/drone_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages\n'}
+[0.867806] (sjtu_drone_control) StdoutLine: {'line': b'copying package.xml -> /home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control\n'}
+[0.867862] (sjtu_drone_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.868177] (sjtu_drone_bringup) StdoutLine: {'line': b'Copying ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info\n'}
+[0.868596] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[0.877104] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.879053] (sjtu_drone_control) StdoutLine: {'line': b'Copying ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info to /home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control-0.0.0-py3.10.egg-info\n'}
+[0.879476] (sjtu_drone_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.900858] (-) TimerEvent: {}
+[0.950974] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.954472] (sjtu_drone_bringup) StdoutLine: {'line': b'Installing spawn_drone script to /home/james/drone_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup\n'}
+[0.954634] (sjtu_drone_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/james/drone_ws/build/sjtu_drone_bringup/install.log'\n"}
+[0.959695] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.965163] (sjtu_drone_control) StdoutLine: {'line': b'Installing drone_position_control script to /home/james/drone_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.965321] (sjtu_drone_control) StdoutLine: {'line': b'Installing open_loop_control script to /home/james/drone_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.965389] (sjtu_drone_control) StdoutLine: {'line': b'Installing teleop script to /home/james/drone_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.965473] (sjtu_drone_control) StdoutLine: {'line': b'Installing teleop_joystick script to /home/james/drone_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.965573] (sjtu_drone_control) StdoutLine: {'line': b"writing list of installed files to '/home/james/drone_ws/build/sjtu_drone_control/install.log'\n"}
+[0.970818] (sjtu_drone_bringup) CommandEnded: {'returncode': 0}
+[0.977071] (sjtu_drone_bringup) JobEnded: {'identifier': 'sjtu_drone_bringup', 'rc': 0}
+[0.982504] (sjtu_drone_control) CommandEnded: {'returncode': 0}
+[0.986107] (sjtu_drone_control) JobEnded: {'identifier': 'sjtu_drone_control', 'rc': 0}
+[1.001027] (-) TimerEvent: {}
+[1.002536] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.007254] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.014230] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.023794] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.036756] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.080127] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.083813] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101100] (-) TimerEvent: {}
+[1.192304] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.201196] (-) TimerEvent: {}
+[1.224774] (sjtu_drone_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.264240] (sjtu_drone_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.278354] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301351] (-) TimerEvent: {}
+[1.375994] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.376349] (sjtu_drone_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401525] (-) TimerEvent: {}
+[1.486317] (sjtu_drone_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.487410] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.501665] (-) TimerEvent: {}
+[1.543349] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.558153] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.574590] (sjtu_drone_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.601863] (-) TimerEvent: {}
+[1.702240] (-) TimerEvent: {}
+[1.716510] (sjtu_drone_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.796544] (sjtu_drone_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.802400] (-) TimerEvent: {}
+[1.824888] (sjtu_drone_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.852374] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.869230] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.878300] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.890058] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.893117] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.893540] (sjtu_drone_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.899703] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.902558] (-) TimerEvent: {}
+[1.920190] (sjtu_drone_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.973915] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.992809] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.997226] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.997307] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.002689] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.002773] (-) TimerEvent: {}
+[2.002839] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.007382] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.007462] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.012579] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.012660] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.016963] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.017042] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.021716] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.102940] (-) TimerEvent: {}
+[2.117076] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.119986] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.120290] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.134402] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.143039] (sjtu_drone_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.146447] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.165138] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.203141] (-) TimerEvent: {}
+[2.223279] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.233388] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.255210] (sjtu_drone_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.303298] (-) TimerEvent: {}
+[2.307980] (sjtu_drone_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.313849] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.314672] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.333650] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.342045] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.362590] (sjtu_drone_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.403477] (-) TimerEvent: {}
+[2.418634] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.426798] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.427518] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.428284] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.429893] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.432034] (sjtu_drone_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.453697] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.454980] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.458442] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.458754] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.459136] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.462547] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.462740] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.503620] (-) TimerEvent: {}
+[2.574023] (sjtu_drone_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.586283] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.603788] (-) TimerEvent: {}
+[2.607754] (sjtu_drone_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.662864] (sjtu_drone_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.671995] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.693975] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.703965] (-) TimerEvent: {}
+[2.748118] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.748839] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.749429] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.750071] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.759266] (sjtu_drone_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.759555] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.781317] (sjtu_drone_description) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.804148] (-) TimerEvent: {}
+[2.838551] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.7.0 (/opt/ros/humble/share/gazebo_plugins/cmake)\n'}
+[2.894332] (sjtu_drone_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.904208] (-) TimerEvent: {}
+[2.909363] (sjtu_drone_description) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.926459] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.937164] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.004285] (-) TimerEvent: {}
+[3.019460] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[3.028818] (sjtu_drone_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.030034] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.030132] (sjtu_drone_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.043156] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.103617] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.104155] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/james/drone_ws/src/drone_ros2/sjtu_drone_description/include;$<BUILD_INTERFACE:/home/james/drone_ws/src/drone_ros2/sjtu_drone_description/include>\n'}
+[3.104206] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.104338] (-) TimerEvent: {}
+[3.104935] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.105892] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.105973] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.106353] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.107999] (sjtu_drone_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.136065] (sjtu_drone_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.137744] (sjtu_drone_description) StdoutLine: {'line': b'-- Build files have been written to: /home/james/drone_ws/build/sjtu_drone_description\n'}
+[3.147065] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[3.147322] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'build'}
+[3.148447] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/james/drone_ws/build/sjtu_drone_description', '--', '-j20', '-l20'], 'cwd': '/home/james/drone_ws/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'james'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/james'), ('OLDPWD', '/home/james/drone_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('MANAGERPID', '1900'), ('SYSTEMD_EXEC_PID', '2591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19921'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/james/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'james'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:11941'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'james'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/james/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/james/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2276,unix/victus:/tmp/.ICE-unix/2276'), ('INVOCATION_ID', 'f7f6e57f8f534fabab0c43b6e6c4fb55'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/follow_waypoints:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:01084a67-abc5-4413-ac87-2ab249f63ca3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/james/drone_ws/build/sjtu_drone_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/james/turtlebot3_ws/build/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/james/turtlebot3_ws/build/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/james/turtlebot3_ws/build/follow_waypoints:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble')]), 'shell': False}
+[3.204518] (-) TimerEvent: {}
+[3.207719] (sjtu_drone_description) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o\x1b[0m\n'}
+[3.208424] (sjtu_drone_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o\x1b[0m\n'}
+[3.209291] (sjtu_drone_description) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone_private.cpp.o\x1b[0m\n'}
+[3.304689] (-) TimerEvent: {}
+[3.404922] (-) TimerEvent: {}
+[3.505187] (-) TimerEvent: {}
+[3.605506] (-) TimerEvent: {}
+[3.705736] (-) TimerEvent: {}
+[3.805971] (-) TimerEvent: {}
+[3.906267] (-) TimerEvent: {}
+[4.006584] (-) TimerEvent: {}
+[4.106894] (-) TimerEvent: {}
+[4.207143] (-) TimerEvent: {}
+[4.307463] (-) TimerEvent: {}
+[4.407722] (-) TimerEvent: {}
+[4.508039] (-) TimerEvent: {}
+[4.608273] (-) TimerEvent: {}
+[4.708596] (-) TimerEvent: {}
+[4.808900] (-) TimerEvent: {}
+[4.909228] (-) TimerEvent: {}
+[5.009550] (-) TimerEvent: {}
+[5.109875] (-) TimerEvent: {}
+[5.210212] (-) TimerEvent: {}
+[5.310521] (-) TimerEvent: {}
+[5.410844] (-) TimerEvent: {}
+[5.511187] (-) TimerEvent: {}
+[5.611514] (-) TimerEvent: {}
+[5.711856] (-) TimerEvent: {}
+[5.812128] (-) TimerEvent: {}
+[5.912451] (-) TimerEvent: {}
+[6.012779] (-) TimerEvent: {}
+[6.113113] (-) TimerEvent: {}
+[6.213441] (-) TimerEvent: {}
+[6.313785] (-) TimerEvent: {}
+[6.414120] (-) TimerEvent: {}
+[6.514443] (-) TimerEvent: {}
+[6.614766] (-) TimerEvent: {}
+[6.715123] (-) TimerEvent: {}
+[6.815476] (-) TimerEvent: {}
+[6.915800] (-) TimerEvent: {}
+[7.016120] (-) TimerEvent: {}
+[7.116452] (-) TimerEvent: {}
+[7.216781] (-) TimerEvent: {}
+[7.317110] (-) TimerEvent: {}
+[7.417449] (-) TimerEvent: {}
+[7.517771] (-) TimerEvent: {}
+[7.618123] (-) TimerEvent: {}
+[7.718447] (-) TimerEvent: {}
+[7.818767] (-) TimerEvent: {}
+[7.919100] (-) TimerEvent: {}
+[8.019340] (-) TimerEvent: {}
+[8.119654] (-) TimerEvent: {}
+[8.219989] (-) TimerEvent: {}
+[8.320315] (-) TimerEvent: {}
+[8.420640] (-) TimerEvent: {}
+[8.520979] (-) TimerEvent: {}
+[8.621301] (-) TimerEvent: {}
+[8.721625] (-) TimerEvent: {}
+[8.821981] (-) TimerEvent: {}
+[8.922323] (-) TimerEvent: {}
+[9.022651] (-) TimerEvent: {}
+[9.122981] (-) TimerEvent: {}
+[9.223308] (-) TimerEvent: {}
+[9.323634] (-) TimerEvent: {}
+[9.423963] (-) TimerEvent: {}
+[9.524215] (-) TimerEvent: {}
+[9.624483] (-) TimerEvent: {}
+[9.724762] (-) TimerEvent: {}
+[9.825031] (-) TimerEvent: {}
+[9.925306] (-) TimerEvent: {}
+[10.025577] (-) TimerEvent: {}
+[10.125918] (-) TimerEvent: {}
+[10.226252] (-) TimerEvent: {}
+[10.326585] (-) TimerEvent: {}
+[10.426899] (-) TimerEvent: {}
+[10.527243] (-) TimerEvent: {}
+[10.627488] (-) TimerEvent: {}
+[10.727799] (-) TimerEvent: {}
+[10.828120] (-) TimerEvent: {}
+[10.928452] (-) TimerEvent: {}
+[11.028765] (-) TimerEvent: {}
+[11.129089] (-) TimerEvent: {}
+[11.229413] (-) TimerEvent: {}
+[11.329727] (-) TimerEvent: {}
+[11.430050] (-) TimerEvent: {}
+[11.530346] (-) TimerEvent: {}
+[11.630668] (-) TimerEvent: {}
+[11.730912] (-) TimerEvent: {}
+[11.831255] (-) TimerEvent: {}
+[11.931568] (-) TimerEvent: {}
+[12.031899] (-) TimerEvent: {}
+[12.132224] (-) TimerEvent: {}
+[12.232549] (-) TimerEvent: {}
+[12.332868] (-) TimerEvent: {}
+[12.433190] (-) TimerEvent: {}
+[12.533509] (-) TimerEvent: {}
+[12.633827] (-) TimerEvent: {}
+[12.734159] (-) TimerEvent: {}
+[12.834498] (-) TimerEvent: {}
+[12.934825] (-) TimerEvent: {}
+[13.035155] (-) TimerEvent: {}
+[13.135478] (-) TimerEvent: {}
+[13.235801] (-) TimerEvent: {}
+[13.336112] (-) TimerEvent: {}
+[13.436427] (-) TimerEvent: {}
+[13.536735] (-) TimerEvent: {}
+[13.637049] (-) TimerEvent: {}
+[13.737363] (-) TimerEvent: {}
+[13.837679] (-) TimerEvent: {}
+[13.937998] (-) TimerEvent: {}
+[14.038309] (-) TimerEvent: {}
+[14.138611] (-) TimerEvent: {}
+[14.238916] (-) TimerEvent: {}
+[14.339310] (-) TimerEvent: {}
+[14.439702] (-) TimerEvent: {}
+[14.540025] (-) TimerEvent: {}
+[14.640360] (-) TimerEvent: {}
+[14.740672] (-) TimerEvent: {}
+[14.840996] (-) TimerEvent: {}
+[14.941283] (-) TimerEvent: {}
+[15.041594] (-) TimerEvent: {}
+[15.141905] (-) TimerEvent: {}
+[15.242230] (-) TimerEvent: {}
+[15.342559] (-) TimerEvent: {}
+[15.442874] (-) TimerEvent: {}
+[15.543193] (-) TimerEvent: {}
+[15.643508] (-) TimerEvent: {}
+[15.743835] (-) TimerEvent: {}
+[15.844175] (-) TimerEvent: {}
+[15.944491] (-) TimerEvent: {}
+[16.044814] (-) TimerEvent: {}
+[16.145174] (-) TimerEvent: {}
+[16.245504] (-) TimerEvent: {}
+[16.345826] (-) TimerEvent: {}
+[16.446160] (-) TimerEvent: {}
+[16.546491] (-) TimerEvent: {}
+[16.646774] (-) TimerEvent: {}
+[16.747108] (-) TimerEvent: {}
+[16.847461] (-) TimerEvent: {}
+[16.947782] (-) TimerEvent: {}
+[17.048116] (-) TimerEvent: {}
+[17.148469] (-) TimerEvent: {}
+[17.248794] (-) TimerEvent: {}
+[17.349112] (-) TimerEvent: {}
+[17.449419] (-) TimerEvent: {}
+[17.549729] (-) TimerEvent: {}
+[17.650036] (-) TimerEvent: {}
+[17.750343] (-) TimerEvent: {}
+[17.850648] (-) TimerEvent: {}
+[17.950958] (-) TimerEvent: {}
+[18.051260] (-) TimerEvent: {}
+[18.151560] (-) TimerEvent: {}
+[18.251859] (-) TimerEvent: {}
+[18.352183] (-) TimerEvent: {}
+[18.452478] (-) TimerEvent: {}
+[18.552785] (-) TimerEvent: {}
+[18.653096] (-) TimerEvent: {}
+[18.753407] (-) TimerEvent: {}
+[18.853713] (-) TimerEvent: {}
+[18.954028] (-) TimerEvent: {}
+[19.054332] (-) TimerEvent: {}
+[19.154628] (-) TimerEvent: {}
+[19.254930] (-) TimerEvent: {}
+[19.355243] (-) TimerEvent: {}
+[19.455537] (-) TimerEvent: {}
+[19.555836] (-) TimerEvent: {}
+[19.656148] (-) TimerEvent: {}
+[19.756446] (-) TimerEvent: {}
+[19.856743] (-) TimerEvent: {}
+[19.957047] (-) TimerEvent: {}
+[20.057347] (-) TimerEvent: {}
+[20.157643] (-) TimerEvent: {}
+[20.257955] (-) TimerEvent: {}
+[20.358254] (-) TimerEvent: {}
+[20.458494] (-) TimerEvent: {}
+[20.558796] (-) TimerEvent: {}
+[20.659104] (-) TimerEvent: {}
+[20.759418] (-) TimerEvent: {}
+[20.859727] (-) TimerEvent: {}
+[20.960038] (-) TimerEvent: {}
+[21.060355] (-) TimerEvent: {}
+[21.160680] (-) TimerEvent: {}
+[21.260998] (-) TimerEvent: {}
+[21.361217] (-) TimerEvent: {}
+[21.461522] (-) TimerEvent: {}
+[21.561822] (-) TimerEvent: {}
+[21.662148] (-) TimerEvent: {}
+[21.762450] (-) TimerEvent: {}
+[21.862745] (-) TimerEvent: {}
+[21.963045] (-) TimerEvent: {}
+[22.063346] (-) TimerEvent: {}
+[22.163646] (-) TimerEvent: {}
+[22.263963] (-) TimerEvent: {}
+[22.364190] (-) TimerEvent: {}
+[22.464496] (-) TimerEvent: {}
+[22.564803] (-) TimerEvent: {}
+[22.665118] (-) TimerEvent: {}
+[22.765442] (-) TimerEvent: {}
+[22.865770] (-) TimerEvent: {}
+[22.966063] (-) TimerEvent: {}
+[23.066382] (-) TimerEvent: {}
+[23.143652] (sjtu_drone_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library /home/james/drone_ws/src/drone_ros2/sjtu_drone_description/plugins/libplugin_drone.so\x1b[0m\n'}
+[23.166570] (-) TimerEvent: {}
+[23.266930] (-) TimerEvent: {}
+[23.367184] (-) TimerEvent: {}
+[23.467442] (-) TimerEvent: {}
+[23.567756] (-) TimerEvent: {}
+[23.668105] (-) TimerEvent: {}
+[23.768436] (-) TimerEvent: {}
+[23.868749] (-) TimerEvent: {}
+[23.969071] (-) TimerEvent: {}
+[24.069393] (-) TimerEvent: {}
+[24.169710] (-) TimerEvent: {}
+[24.270026] (-) TimerEvent: {}
+[24.370354] (-) TimerEvent: {}
+[24.378939] (sjtu_drone_description) StdoutLine: {'line': b'[100%] Built target plugin_drone\n'}
+[24.387846] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[24.431039] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'install'}
+[24.441697] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/james/drone_ws/build/sjtu_drone_description'], 'cwd': '/home/james/drone_ws/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'james'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/james'), ('OLDPWD', '/home/james/drone_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('MANAGERPID', '1900'), ('SYSTEMD_EXEC_PID', '2591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19921'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/james/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'james'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:11941'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'james'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/james/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/james/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2276,unix/victus:/tmp/.ICE-unix/2276'), ('INVOCATION_ID', 'f7f6e57f8f534fabab0c43b6e6c4fb55'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/follow_waypoints:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:01084a67-abc5-4413-ac87-2ab249f63ca3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/james/drone_ws/build/sjtu_drone_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/james/turtlebot3_ws/build/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/james/turtlebot3_ws/build/turtlebot3_example:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/james/turtlebot3_ws/build/follow_waypoints:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble')]), 'shell': False}
+[24.452744] (sjtu_drone_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.453035] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/include\n'}
+[24.453126] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/include/sjtu_drone_description\n'}
+[24.453206] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h\n'}
+[24.453444] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h\n'}
+[24.453616] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h\n'}
+[24.453721] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/lib/libplugin_drone.so\n'}
+[24.469210] (sjtu_drone_description) StdoutLine: {'line': b'-- Set runtime path of "/home/james/drone_ws/install/sjtu_drone_description/lib/libplugin_drone.so" to ""\n'}
+[24.469317] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh\n'}
+[24.469357] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv\n'}
+[24.469388] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models\n'}
+[24.469530] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config\n'}
+[24.469606] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone\n'}
+[24.469755] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl\n'}
+[24.469842] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf\n'}
+[24.469878] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config\n'}
+[24.469921] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae\n'}
+[24.469955] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf\n'}
+[24.469991] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro\n'}
+[24.470021] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf\n'}
+[24.470049] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds\n'}
+[24.470079] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world\n'}
+[24.470109] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description\n'}
+[24.470182] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description\n'}
+[24.470215] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh\n'}
+[24.470246] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv\n'}
+[24.470276] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh\n'}
+[24.470307] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv\n'}
+[24.470354] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash\n'}
+[24.470388] (-) TimerEvent: {}
+[24.470477] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh\n'}
+[24.470520] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh\n'}
+[24.470553] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv\n'}
+[24.470584] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv\n'}
+[24.470614] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description\n'}
+[24.470662] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake\n'}
+[24.470724] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake\n'}
+[24.470757] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.470788] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.470854] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.470898] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake\n'}
+[24.470927] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake\n'}
+[24.470960] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.xml\n'}
+[24.472048] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[24.508467] (sjtu_drone_description) JobEnded: {'identifier': 'sjtu_drone_description', 'rc': 0}
+[24.509088] (-) EventReactorShutdown: {}

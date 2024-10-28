@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Cleveland_County_task4207_jpg.rf.cabac8e766d9820864dd0a6bf1f953ba.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Logan_County_task499_jpg.rf.db45d5d39211dd760df0c689b8137569.txt

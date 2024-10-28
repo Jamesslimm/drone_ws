@@ -1,0 +1,32 @@
+[1.112s] Invoking command in '/home/james/drone_ws/build/sjtu_drone_bringup': PYTHONPATH=/home/james/drone_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/drone_ws/build/sjtu_drone_bringup/build --no-deps symlink_data
+[1.366s] /home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.366s]   warnings.warn(msg)
+[1.532s] running develop
+[1.533s] /home/james/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.533s] !!
+[1.533s] 
+[1.534s]         ********************************************************************************
+[1.534s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.534s]         Instead, use pypa/build, pypa/installer or other
+[1.534s]         standards-based tools.
+[1.534s] 
+[1.534s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.534s]         ********************************************************************************
+[1.534s] 
+[1.534s] !!
+[1.534s]   easy_install.initialize_options(self)
+[1.761s] running egg_info
+[1.784s] writing sjtu_drone_bringup.egg-info/PKG-INFO
+[1.788s] writing dependency_links to sjtu_drone_bringup.egg-info/dependency_links.txt
+[1.788s] writing entry points to sjtu_drone_bringup.egg-info/entry_points.txt
+[1.788s] writing requirements to sjtu_drone_bringup.egg-info/requires.txt
+[1.788s] writing top-level names to sjtu_drone_bringup.egg-info/top_level.txt
+[1.821s] reading manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.824s] writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.840s] running build_ext
+[1.841s] Creating /home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu-drone-bringup.egg-link (link to .)
+[1.842s] Installing spawn_drone script to /home/james/drone_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[1.842s] 
+[1.842s] Installed /home/james/drone_ws/build/sjtu_drone_bringup
+[1.843s] running symlink_data
+[1.919s] Invoked command in '/home/james/drone_ws/build/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/james/drone_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/drone_ws/build/sjtu_drone_bringup/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/300-S-Washington-Ave_Jennings-Plus_AR-72701_United-States_t36081_jpg.rf.c9411bcbf2c918467aa0743353dd5f94.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Hempstead_County_task1624_jpg.rf.d5b7c318d8b64542448f1c3e6665990b.txt

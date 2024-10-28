@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/4383-E-Oakmont-Dr_Fayetteville_AR-72701_United-States_t16847_jpg.rf.facdad8a8fb3b2bab037c1f594db498f.txt

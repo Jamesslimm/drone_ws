@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/202-Cherrywood-Cv_Lowell_AR-72745_United-States_t33450_jpg.rf.0cc3986d14f94882cd54e3ef10df7376.txt

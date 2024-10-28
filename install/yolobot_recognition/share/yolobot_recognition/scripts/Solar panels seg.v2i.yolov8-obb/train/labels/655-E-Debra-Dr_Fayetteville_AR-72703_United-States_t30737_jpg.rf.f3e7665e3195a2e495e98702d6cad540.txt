@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/655-E-Debra-Dr_Fayetteville_AR-72703_United-States_t30737_jpg.rf.f3e7665e3195a2e495e98702d6cad540.txt

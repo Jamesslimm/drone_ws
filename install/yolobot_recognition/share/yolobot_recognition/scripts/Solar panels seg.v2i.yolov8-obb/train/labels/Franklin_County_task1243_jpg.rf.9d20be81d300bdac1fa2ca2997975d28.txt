@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Franklin_County_task1243_jpg.rf.9d20be81d300bdac1fa2ca2997975d28.txt

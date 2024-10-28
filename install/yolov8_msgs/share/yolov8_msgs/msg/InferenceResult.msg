@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolov8_msgs/msg/InferenceResult.msg

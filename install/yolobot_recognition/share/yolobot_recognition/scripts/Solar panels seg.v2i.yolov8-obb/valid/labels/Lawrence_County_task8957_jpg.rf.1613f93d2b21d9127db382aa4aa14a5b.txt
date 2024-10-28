@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/Lawrence_County_task8957_jpg.rf.1613f93d2b21d9127db382aa4aa14a5b.txt

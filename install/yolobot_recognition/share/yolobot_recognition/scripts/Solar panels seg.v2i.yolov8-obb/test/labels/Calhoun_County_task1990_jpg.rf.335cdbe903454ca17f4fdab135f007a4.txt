@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/test/labels/Calhoun_County_task1990_jpg.rf.335cdbe903454ca17f4fdab135f007a4.txt

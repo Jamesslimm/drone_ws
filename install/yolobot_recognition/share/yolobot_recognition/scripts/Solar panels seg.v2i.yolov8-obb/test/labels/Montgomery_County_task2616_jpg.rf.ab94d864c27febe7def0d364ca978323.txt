@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/test/labels/Montgomery_County_task2616_jpg.rf.ab94d864c27febe7def0d364ca978323.txt

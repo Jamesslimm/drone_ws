@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Little-River_County_task98_jpg.rf.dd1b6a4202d6f6c58f3b9137ce979b65.txt

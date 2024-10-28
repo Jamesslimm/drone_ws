@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/672-Riverwest-Cir_Marion_AR-72364_United-States_t2782_jpg.rf.57ec6d2b667044d826c61a5a540db753.txt

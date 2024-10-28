@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/107-Jerry-Ave_Harrison_AR-72601_United-States_t66311_jpg.rf.c31c1cf5a0eea9736bf97a56d5c10df5.txt

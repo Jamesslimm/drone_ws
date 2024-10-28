@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/1169-S-Ivory-Bill-Ln_Mount-Sequoyah-South_AR-72701_United-States_t69454_jpg.rf.42c08b9079b1d723b2a28d2a9b31368c.txt

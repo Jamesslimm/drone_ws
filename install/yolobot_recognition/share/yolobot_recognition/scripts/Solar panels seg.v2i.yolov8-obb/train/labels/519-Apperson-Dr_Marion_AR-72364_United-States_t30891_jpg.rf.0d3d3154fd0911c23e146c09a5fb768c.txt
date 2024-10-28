@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/519-Apperson-Dr_Marion_AR-72364_United-States_t30891_jpg.rf.0d3d3154fd0911c23e146c09a5fb768c.txt

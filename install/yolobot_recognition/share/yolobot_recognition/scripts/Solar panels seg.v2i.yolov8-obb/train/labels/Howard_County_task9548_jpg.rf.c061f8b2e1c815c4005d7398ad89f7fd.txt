@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Howard_County_task9548_jpg.rf.c061f8b2e1c815c4005d7398ad89f7fd.txt

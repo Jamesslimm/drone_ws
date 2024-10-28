@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Independence_County_task13729_jpg.rf.e9e058ba676c13e1647fa8985d7ec72b.txt

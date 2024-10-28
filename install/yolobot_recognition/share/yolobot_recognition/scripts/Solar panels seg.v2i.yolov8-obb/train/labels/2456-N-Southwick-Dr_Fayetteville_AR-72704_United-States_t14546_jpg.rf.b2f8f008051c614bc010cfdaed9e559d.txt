@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/2456-N-Southwick-Dr_Fayetteville_AR-72704_United-States_t14546_jpg.rf.b2f8f008051c614bc010cfdaed9e559d.txt

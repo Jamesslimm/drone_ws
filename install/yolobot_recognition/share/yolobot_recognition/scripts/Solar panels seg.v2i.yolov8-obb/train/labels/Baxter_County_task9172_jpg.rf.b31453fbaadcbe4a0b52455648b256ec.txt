@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Baxter_County_task9172_jpg.rf.b31453fbaadcbe4a0b52455648b256ec.txt

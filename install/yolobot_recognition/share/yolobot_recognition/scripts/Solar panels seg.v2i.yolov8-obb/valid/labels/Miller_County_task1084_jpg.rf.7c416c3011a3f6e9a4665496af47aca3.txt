@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/Miller_County_task1084_jpg.rf.7c416c3011a3f6e9a4665496af47aca3.txt

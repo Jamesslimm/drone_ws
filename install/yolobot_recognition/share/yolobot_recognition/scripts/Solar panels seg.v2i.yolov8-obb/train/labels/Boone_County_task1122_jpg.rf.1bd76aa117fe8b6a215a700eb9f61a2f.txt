@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Boone_County_task1122_jpg.rf.1bd76aa117fe8b6a215a700eb9f61a2f.txt

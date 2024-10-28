@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/408-W-Spruce-St_Fayetteville_AR-72703_United-States_t21228_jpg.rf.bfb00c626bc581bf8b6c1e07f9e64e66.txt

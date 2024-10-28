@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Clark_County_task1188_jpg.rf.8cde57159d1e3d29e848d26b5e6e998e.txt

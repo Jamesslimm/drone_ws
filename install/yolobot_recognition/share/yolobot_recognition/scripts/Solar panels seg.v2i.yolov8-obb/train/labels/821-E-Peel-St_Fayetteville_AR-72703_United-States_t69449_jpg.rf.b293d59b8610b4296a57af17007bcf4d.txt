@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/821-E-Peel-St_Fayetteville_AR-72703_United-States_t69449_jpg.rf.b293d59b8610b4296a57af17007bcf4d.txt

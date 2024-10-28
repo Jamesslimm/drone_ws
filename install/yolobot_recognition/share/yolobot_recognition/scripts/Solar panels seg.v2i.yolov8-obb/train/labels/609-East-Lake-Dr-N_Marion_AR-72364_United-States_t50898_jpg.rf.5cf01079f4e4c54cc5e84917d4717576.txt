@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/609-East-Lake-Dr-N_Marion_AR-72364_United-States_t50898_jpg.rf.5cf01079f4e4c54cc5e84917d4717576.txt

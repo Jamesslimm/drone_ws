@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/885-N-Fritz-Dr_Washington-Willow_AR-72701_United-States_t19717_jpg.rf.71e712543fd4d03212401aa6d11a1a74.txt

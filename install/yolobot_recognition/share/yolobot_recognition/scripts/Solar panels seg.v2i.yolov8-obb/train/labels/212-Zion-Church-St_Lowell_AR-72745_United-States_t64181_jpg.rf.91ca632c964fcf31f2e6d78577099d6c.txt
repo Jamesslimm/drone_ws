@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/212-Zion-Church-St_Lowell_AR-72745_United-States_t64181_jpg.rf.91ca632c964fcf31f2e6d78577099d6c.txt

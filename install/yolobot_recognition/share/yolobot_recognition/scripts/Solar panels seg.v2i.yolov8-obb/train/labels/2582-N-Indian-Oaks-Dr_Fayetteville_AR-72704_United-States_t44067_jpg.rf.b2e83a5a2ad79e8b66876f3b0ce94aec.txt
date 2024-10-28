@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/2582-N-Indian-Oaks-Dr_Fayetteville_AR-72704_United-States_t44067_jpg.rf.b2e83a5a2ad79e8b66876f3b0ce94aec.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/2429-Meadow-Pond-Trl_White-Hall_AR-71602_United-States_t15170_jpg.rf.231075d0a140b00590bb6752d41079de.txt

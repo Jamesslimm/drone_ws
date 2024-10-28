@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/605-Magnolia-St-SW_Patriot-Park_AR-72736_United-States_t17300_jpg.rf.eb0329dc787de2e655fe266a6c92ceac.txt

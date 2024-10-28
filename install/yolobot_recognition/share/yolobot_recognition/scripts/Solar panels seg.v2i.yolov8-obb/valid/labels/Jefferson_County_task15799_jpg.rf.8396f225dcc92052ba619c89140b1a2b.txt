@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/Jefferson_County_task15799_jpg.rf.8396f225dcc92052ba619c89140b1a2b.txt

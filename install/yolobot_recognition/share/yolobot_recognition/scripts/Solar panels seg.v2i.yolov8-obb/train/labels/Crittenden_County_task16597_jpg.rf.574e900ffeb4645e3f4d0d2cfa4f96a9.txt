@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Crittenden_County_task16597_jpg.rf.574e900ffeb4645e3f4d0d2cfa4f96a9.txt

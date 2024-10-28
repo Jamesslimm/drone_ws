@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Cleburne_County_task16022_jpg.rf.d630cb2cc45b5c68c62823b1f2240e11.txt

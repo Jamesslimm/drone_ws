@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Monroe_County_task1449_jpg.rf.2d52f4ec5d347a6975dd73c1a20297ee.txt

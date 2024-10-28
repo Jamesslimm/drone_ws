@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Carroll_County_task7952_jpg.rf.276fff3ffc5a67bdfc5ab0c97f50121d.txt

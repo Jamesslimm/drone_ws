@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/2513-SE-2nd-St_Hoxie_AR-72433_United-States_t48329_jpg.rf.40de2e6dc41cde016c8a03ad4d750aad.txt

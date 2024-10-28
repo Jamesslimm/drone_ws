@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Arkansas_County_task11308_jpg.rf.edc91007a37b6f8392bb8f03185d1f8e.txt

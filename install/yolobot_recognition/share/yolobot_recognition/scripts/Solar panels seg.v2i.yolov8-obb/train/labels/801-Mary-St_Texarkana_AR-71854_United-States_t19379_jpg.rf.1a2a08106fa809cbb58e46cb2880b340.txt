@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/801-Mary-St_Texarkana_AR-71854_United-States_t19379_jpg.rf.1a2a08106fa809cbb58e46cb2880b340.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Lincoln_County_task828_jpg.rf.55fa7182561ee67414f90d43a3cd0889.txt

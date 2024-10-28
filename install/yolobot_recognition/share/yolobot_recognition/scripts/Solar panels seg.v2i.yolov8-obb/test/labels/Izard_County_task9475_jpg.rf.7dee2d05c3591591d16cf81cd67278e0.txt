@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/test/labels/Izard_County_task9475_jpg.rf.7dee2d05c3591591d16cf81cd67278e0.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/PV08_332124_1197374_jpg.rf.7951d7d105ba3f809936e8e270d9acd7.txt

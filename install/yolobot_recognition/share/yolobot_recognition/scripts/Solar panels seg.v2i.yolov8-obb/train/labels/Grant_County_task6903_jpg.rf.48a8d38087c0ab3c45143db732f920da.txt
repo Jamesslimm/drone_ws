@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Grant_County_task6903_jpg.rf.48a8d38087c0ab3c45143db732f920da.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h

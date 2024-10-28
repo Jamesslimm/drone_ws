@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/235-E-Baxter-Ln_Washington-Willow_AR-72701_United-States_t66623_jpg.rf.9fef7d01d469ec8b7753d8754857b27e.txt

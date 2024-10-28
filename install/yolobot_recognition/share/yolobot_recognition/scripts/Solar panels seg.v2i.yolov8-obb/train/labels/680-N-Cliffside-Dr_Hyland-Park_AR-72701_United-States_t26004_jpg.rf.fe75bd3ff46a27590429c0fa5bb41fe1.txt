@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/680-N-Cliffside-Dr_Hyland-Park_AR-72701_United-States_t26004_jpg.rf.fe75bd3ff46a27590429c0fa5bb41fe1.txt

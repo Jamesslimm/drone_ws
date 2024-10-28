@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Lonoke_County_task1837_jpg.rf.c4cd7b991a35ec7b5d6b8be47425cf91.txt

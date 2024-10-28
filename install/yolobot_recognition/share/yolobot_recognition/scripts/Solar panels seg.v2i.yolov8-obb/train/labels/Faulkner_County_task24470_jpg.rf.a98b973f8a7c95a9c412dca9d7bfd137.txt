@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Faulkner_County_task24470_jpg.rf.a98b973f8a7c95a9c412dca9d7bfd137.txt

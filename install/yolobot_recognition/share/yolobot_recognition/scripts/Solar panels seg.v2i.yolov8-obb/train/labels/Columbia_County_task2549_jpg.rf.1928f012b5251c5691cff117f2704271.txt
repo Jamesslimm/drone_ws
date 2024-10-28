@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Columbia_County_task2549_jpg.rf.1928f012b5251c5691cff117f2704271.txt

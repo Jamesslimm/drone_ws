@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/125-E-Conner-St_Mount-Sequoyah-South_AR-72701_United-States_t50439_jpg.rf.c64d37018159e52d72e9a378a028f1d7.txt

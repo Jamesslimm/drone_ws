@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/13-Franklin-T-Booher-St_Mayflower_AR-72106_United-States_t54674_jpg.rf.a7d58e7874c358918722109a4da1add2.txt

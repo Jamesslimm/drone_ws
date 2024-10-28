@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/46492-2020_Linz_20_RGBI_png_jpg.rf.4ce2f674ded00d51b13d93bcfabe8b8c.txt

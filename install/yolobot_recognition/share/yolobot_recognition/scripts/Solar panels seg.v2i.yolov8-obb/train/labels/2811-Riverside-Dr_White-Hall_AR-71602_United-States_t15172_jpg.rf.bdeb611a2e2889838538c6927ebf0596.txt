@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/2811-Riverside-Dr_White-Hall_AR-71602_United-States_t15172_jpg.rf.bdeb611a2e2889838538c6927ebf0596.txt

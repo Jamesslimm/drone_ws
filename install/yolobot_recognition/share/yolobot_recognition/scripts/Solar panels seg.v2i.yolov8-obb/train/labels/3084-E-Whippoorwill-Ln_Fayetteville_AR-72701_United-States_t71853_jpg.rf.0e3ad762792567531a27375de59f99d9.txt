@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/3084-E-Whippoorwill-Ln_Fayetteville_AR-72701_United-States_t71853_jpg.rf.0e3ad762792567531a27375de59f99d9.txt

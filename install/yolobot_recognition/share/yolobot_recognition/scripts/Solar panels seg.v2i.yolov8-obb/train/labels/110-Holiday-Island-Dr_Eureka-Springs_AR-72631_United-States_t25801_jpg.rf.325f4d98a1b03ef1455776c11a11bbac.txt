@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/110-Holiday-Island-Dr_Eureka-Springs_AR-72631_United-States_t25801_jpg.rf.325f4d98a1b03ef1455776c11a11bbac.txt

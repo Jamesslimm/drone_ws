@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Hot-Spring_County_task4219_jpg.rf.deedd0509fe8e51bdf8d226bb9f5ac33.txt

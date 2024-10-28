@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/307-Lion-Dr-N_Walnut-Creek_AR-72736_United-States_t68272_jpg.rf.038defb24b7dab3dbfd7993e46d6f319.txt

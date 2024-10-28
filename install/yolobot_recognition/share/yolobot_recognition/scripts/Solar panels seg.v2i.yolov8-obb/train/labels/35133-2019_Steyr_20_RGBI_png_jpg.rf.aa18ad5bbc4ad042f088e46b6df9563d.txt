@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/35133-2019_Steyr_20_RGBI_png_jpg.rf.aa18ad5bbc4ad042f088e46b6df9563d.txt

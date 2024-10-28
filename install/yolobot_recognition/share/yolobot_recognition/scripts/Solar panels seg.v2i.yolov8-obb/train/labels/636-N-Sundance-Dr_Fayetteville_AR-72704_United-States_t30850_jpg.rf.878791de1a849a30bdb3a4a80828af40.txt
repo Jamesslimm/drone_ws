@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/636-N-Sundance-Dr_Fayetteville_AR-72704_United-States_t30850_jpg.rf.878791de1a849a30bdb3a4a80828af40.txt

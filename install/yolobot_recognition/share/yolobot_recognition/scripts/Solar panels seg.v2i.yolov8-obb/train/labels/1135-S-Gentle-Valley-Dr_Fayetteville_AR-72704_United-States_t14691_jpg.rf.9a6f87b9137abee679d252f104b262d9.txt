@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/1135-S-Gentle-Valley-Dr_Fayetteville_AR-72704_United-States_t14691_jpg.rf.9a6f87b9137abee679d252f104b262d9.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Bradley_County_task2060_jpg.rf.ee65ab60ecbdd4b44f423c432bf5b9e2.txt

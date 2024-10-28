@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Crawford_County_task20510_jpg.rf.e9980cf6a62180bd5aec3f76dd6b2545.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/10-Bud-Ford-Ct_Cabot_AR-72023_United-States_t63138_jpg.rf.423587a6e97fb470c7e5370245905eac.txt

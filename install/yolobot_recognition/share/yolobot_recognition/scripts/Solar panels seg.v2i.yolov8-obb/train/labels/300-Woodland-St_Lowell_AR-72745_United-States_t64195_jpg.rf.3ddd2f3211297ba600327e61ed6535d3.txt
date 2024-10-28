@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/300-Woodland-St_Lowell_AR-72745_United-States_t64195_jpg.rf.3ddd2f3211297ba600327e61ed6535d3.txt

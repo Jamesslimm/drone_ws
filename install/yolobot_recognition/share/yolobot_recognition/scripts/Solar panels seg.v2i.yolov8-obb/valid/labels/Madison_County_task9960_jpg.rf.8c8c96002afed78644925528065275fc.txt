@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/Madison_County_task9960_jpg.rf.8c8c96002afed78644925528065275fc.txt

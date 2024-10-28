@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Conway_County_task13980_jpg.rf.05e6af14af7c694838f64aba1f3fc0b6.txt

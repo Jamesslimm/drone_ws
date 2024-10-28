@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Washington_County_task1811_jpg.rf.57f35b4ba2d04db38917dda41c5a5b55.txt

@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/train/labels/Craighead_County_task28271_jpg.rf.f54bef5a7c6db6384ceb5ad746bd5a84.txt

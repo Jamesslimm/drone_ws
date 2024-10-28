@@ -1,0 +1,1 @@
+/home/james/drone_ws/src/drone_ros2/yolobot_recognition/scripts/Solar panels seg.v2i.yolov8-obb/valid/labels/Newton_County_task5648_jpg.rf.d5b549322f34336d3a5eae40419bd8fe.txt
