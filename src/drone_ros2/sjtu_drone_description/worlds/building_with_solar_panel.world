@@ -123,7 +123,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>0.636172 0.200025 0 0 -0 0</pose>
+      <pose>7.60261 -1.65147 0 0 -0 0</pose>
     </model>
     <model name='solar_panel'>
       <static>1</static>
@@ -159,116 +159,18 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>0.489957 5.0053 0 0 -0 0</pose>
+      <pose>-1.16578 4.01792 0 0 -0 0</pose>
     </model>
-    <light name='user_directional_light_0' type='directional'>
-      <pose>0.069884 4.10466 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <direction>0.1 0.1 -0.9</direction>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-    </light>
-    <model name='solar_panel_clone'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://solar_panel/meshes/solar_panel.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://solar_panel/meshes/solar_panel.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>-36.5086 -5.82801 19.7792 0 -0 0</pose>
-    </model>
-    <model name='solar_panel_clone_0'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://solar_panel/meshes/solar_panel.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://solar_panel/meshes/solar_panel.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>-3.99956 6.43802 19.7792 0 -0 0</pose>
-    </model>
-    <light name='user_directional_light_1' type='directional'>
-      <pose>-23.2646 0.102937 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <direction>0.1 0.1 -0.9</direction>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-    </light>
     <state world_name='default'>
-      <sim_time>251 600000000</sim_time>
-      <real_time>252 235070553</real_time>
-      <wall_time>1729834040 714844148</wall_time>
-      <iterations>251600</iterations>
+      <sim_time>154 724000000</sim_time>
+      <real_time>155 111551615</real_time>
+      <wall_time>1730384989 341146542</wall_time>
+      <iterations>154724</iterations>
       <model name='building'>
-        <pose>-6.08207 6.83106 -40.3027 0 -0 0</pose>
+        <pose>6.10665 0.012537 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-6.08207 6.83106 -40.3027 0 -0 0</pose>
+          <pose>6.10665 0.012537 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -285,30 +187,10 @@
         </link>
       </model>
       <model name='solar_panel'>
-        <pose>-4.02905 4.83811 19.7792 0 -0 0</pose>
+        <pose>5.74214 0.873969 19.9977 0 -0 3.13371</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-4.02905 4.83811 19.7792 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='solar_panel_clone'>
-        <pose>-4.02158 5.60123 19.7792 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>-4.02158 5.60123 19.7792 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='solar_panel_clone_0'>
-        <pose>-4.01607 6.36918 19.7792 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>-4.01607 6.36918 19.7792 0 -0 0</pose>
+          <pose>5.74214 0.873969 19.9977 0 -0 3.13371</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -317,16 +199,10 @@
       <light name='sun'>
         <pose>0 0 10 0 -0 0</pose>
       </light>
-      <light name='user_directional_light_0'>
-        <pose>0.069884 4.10466 1 0 -0 0</pose>
-      </light>
-      <light name='user_directional_light_1'>
-        <pose>-23.2646 0.102937 1 0 -0 0</pose>
-      </light>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>13.9496 5.23099 30.0697 0 0.751643 3.04021</pose>
+        <pose>-10.5039 2.95943 26.6484 0 0.545797 -0.043803</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

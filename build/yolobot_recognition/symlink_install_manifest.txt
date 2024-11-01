@@ -19235,6 +19235,7 @@
 /home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/person.pt
 /home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/solar_panel.pt
 /home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_pt.py
+/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_pt_backup.py
 /home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_subscriber.py
 /home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8n.pt
 /home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition//launch/launch_yolov8.launch.py
