@@ -72,11 +72,11 @@ def generate_launch_description():
         yaml_dict = yaml.load(f, Loader=yaml.FullLoader)
         model_ns = yaml_dict["namespace"]
 
-    spawn_yolo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(pkg_yolobot_recognition, 'launch', 'launch_yolov8.launch.py'),
-        )
-    ) 
+    # spawn_yolo = IncludeLaunchDescription(
+    #     PythonLaunchDescriptionSource(
+    #         os.path.join(pkg_yolobot_recognition, 'launch', 'launch_yolov8.launch.py'),
+    #     )
+    # ) 
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -97,7 +97,7 @@ def generate_launch_description():
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
-                os.path.join(sjtu_drone_bringup_path, 'launch', 'sjtu_drone_gazebo.launch.py')
+                os.path.join(sjtu_drone_bringup_path, 'launch', 'sjtu_drone_gazebo.launch.py') #'sjtu_drone_gazebo.launch.py'
             )
         ),
 
@@ -114,5 +114,5 @@ def generate_launch_description():
             kwargs={'model_ns': model_ns},
         ),
 
-        spawn_yolo,
+        # spawn_yolo,
     ])

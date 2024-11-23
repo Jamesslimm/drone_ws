@@ -2,6 +2,9 @@ package.xml
 setup.cfg
 setup.py
 config/drone.yaml
+launch/drone_rtab.launch.py
+launch/gazebo_launch.py
+launch/rsp.launch.py
 launch/sjtu_drone_bringup.launch.py
 launch/sjtu_drone_gazebo.launch.py
 resource/sjtu_drone_bringup

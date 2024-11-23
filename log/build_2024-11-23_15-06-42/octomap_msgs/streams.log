@@ -1,0 +1,283 @@
+[0.035s] Invoking command in '/home/james/drone_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_msgs
+[0.438s] -- The C compiler identification is GNU 11.4.0
+[0.438s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.438s] -- Detecting C compile features
+[0.438s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.438s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.438s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.859s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.934s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.001s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.043s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.269s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.332s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.747s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.026s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.431s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.434s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.470s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.470s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.470s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.493s] -- Found PythonExtra: .so  
+[2.560s] -- Configuring done
+[2.590s] -- Generating done
+[2.592s] -- Build files have been written to: /home/james/drone_ws/build/octomap_msgs
+[2.598s] Invoked command in '/home/james/drone_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_msgs
+[2.599s] Invoking command in '/home/james/drone_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/octomap_msgs -- -j20 -l20
+[2.644s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.654s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.663s] [  3%] Built target ament_cmake_python_symlink_octomap_msgs
+[2.896s] running egg_info
+[2.898s] creating octomap_msgs.egg-info
+[2.914s] writing octomap_msgs.egg-info/PKG-INFO
+[2.915s] writing dependency_links to octomap_msgs.egg-info/dependency_links.txt
+[2.915s] writing top-level names to octomap_msgs.egg-info/top_level.txt
+[2.915s] writing manifest file 'octomap_msgs.egg-info/SOURCES.txt'
+[2.966s] reading manifest file 'octomap_msgs.egg-info/SOURCES.txt'
+[2.967s] writing manifest file 'octomap_msgs.egg-info/SOURCES.txt'
+[3.001s] [  3%] Built target ament_cmake_python_build_octomap_msgs_egg
+[3.224s] [  3%] Built target octomap_msgs__cpp
+[3.225s] [  5%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_c.dir/rosidl_generator_c/octomap_msgs/srv/detail/bounding_box_query__functions.c.o[0m
+[3.227s] [  7%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_c.dir/rosidl_generator_c/octomap_msgs/srv/detail/get_octomap__functions.c.o[0m
+[3.228s] [  9%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_c.dir/rosidl_generator_c/octomap_msgs/msg/detail/octomap__functions.c.o[0m
+[3.228s] [ 10%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_c.dir/rosidl_generator_c/octomap_msgs/msg/detail/octomap_with_pose__functions.c.o[0m
+[3.237s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.237s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.240s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.277s] [ 18%] [32m[1mLinking C shared library liboctomap_msgs__rosidl_generator_c.so[0m
+[3.335s] [ 18%] Built target octomap_msgs__rosidl_generator_c
+[3.350s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.355s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.355s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.758s] [ 27%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/octomap_msgs/srv/get_octomap__type_support.cpp.o[0m
+[3.758s] [ 27%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/octomap_msgs/msg/octomap_with_pose__type_support.cpp.o[0m
+[3.758s] [ 29%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/octomap_msgs/msg/octomap__type_support.cpp.o[0m
+[3.760s] [ 30%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/octomap_msgs/srv/bounding_box_query__type_support.cpp.o[0m
+[3.783s] [ 32%] [32m[1mLinking CXX shared library liboctomap_msgs__rosidl_typesupport_cpp.so[0m
+[3.821s] [ 34%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octomap_msgs/srv/detail/get_octomap__type_support.cpp.o[0m
+[3.823s] [ 36%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octomap_msgs/msg/detail/octomap_with_pose__type_support.cpp.o[0m
+[3.823s] [ 38%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octomap_msgs/srv/detail/bounding_box_query__type_support.cpp.o[0m
+[3.825s] [ 40%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octomap_msgs/msg/detail/octomap__type_support.cpp.o[0m
+[3.850s] [ 40%] Built target octomap_msgs__rosidl_typesupport_cpp
+[3.851s] [ 41%] [32m[1mLinking CXX shared library liboctomap_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.942s] [ 41%] Built target octomap_msgs__rosidl_typesupport_introspection_cpp
+[3.971s] [ 43%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/octomap_msgs/srv/detail/bounding_box_query__type_support.c.o[0m
+[3.972s] [ 45%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/octomap_msgs/srv/detail/get_octomap__type_support.c.o[0m
+[3.974s] [ 47%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/octomap_msgs/msg/detail/octomap__type_support.c.o[0m
+[3.975s] [ 49%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/octomap_msgs/msg/detail/octomap_with_pose__type_support.c.o[0m
+[4.021s] [ 50%] [32m[1mLinking C shared library liboctomap_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.078s] [ 50%] Built target octomap_msgs__rosidl_typesupport_introspection_c
+[4.101s] [ 52%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octomap_msgs/msg/detail/octomap_with_pose__type_support_c.cpp.o[0m
+[4.101s] [ 54%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octomap_msgs/srv/detail/bounding_box_query__type_support_c.cpp.o[0m
+[4.102s] [ 56%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octomap_msgs/srv/detail/get_octomap__type_support_c.cpp.o[0m
+[4.105s] [ 58%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octomap_msgs/msg/detail/octomap__type_support_c.cpp.o[0m
+[4.112s] [ 60%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/octomap_msgs/msg/octomap__type_support.cpp.o[0m
+[4.112s] [ 61%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/octomap_msgs/srv/bounding_box_query__type_support.cpp.o[0m
+[4.112s] [ 63%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/octomap_msgs/srv/get_octomap__type_support.cpp.o[0m
+[4.117s] [ 65%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/octomap_msgs/msg/octomap_with_pose__type_support.cpp.o[0m
+[4.124s] [ 67%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octomap_msgs/msg/detail/dds_fastrtps/octomap_with_pose__type_support.cpp.o[0m
+[4.124s] [ 70%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octomap_msgs/srv/detail/dds_fastrtps/get_octomap__type_support.cpp.o[0m
+[4.124s] [ 70%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octomap_msgs/msg/detail/dds_fastrtps/octomap__type_support.cpp.o[0m
+[4.129s] [ 72%] [32mBuilding CXX object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octomap_msgs/srv/detail/dds_fastrtps/bounding_box_query__type_support.cpp.o[0m
+[4.139s] [ 74%] [32m[1mLinking CXX shared library liboctomap_msgs__rosidl_typesupport_c.so[0m
+[4.156s] [ 76%] [32m[1mLinking CXX shared library liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.193s] [ 76%] Built target octomap_msgs__rosidl_typesupport_c
+[4.228s] [ 78%] [32m[1mLinking CXX shared library liboctomap_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.243s] [ 78%] Built target octomap_msgs__rosidl_typesupport_fastrtps_cpp
+[4.304s] [ 78%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c
+[4.329s] [ 78%] Built target octomap_msgs
+[4.354s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.175s] [ 80%] Built target octomap_msgs__py
+[5.201s] [ 81%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_py.dir/rosidl_generator_py/octomap_msgs/msg/_octomap_s.c.o[0m
+[5.202s] [ 83%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_py.dir/rosidl_generator_py/octomap_msgs/srv/_bounding_box_query_s.c.o[0m
+[5.202s] [ 85%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_py.dir/rosidl_generator_py/octomap_msgs/srv/_get_octomap_s.c.o[0m
+[5.206s] [ 87%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_generator_py.dir/rosidl_generator_py/octomap_msgs/msg/_octomap_with_pose_s.c.o[0m
+[5.225s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/octomap_msgs/liboctomap_msgs__rosidl_generator_py.so[0m
+[5.277s] [ 89%] Built target octomap_msgs__rosidl_generator_py
+[5.302s] [ 90%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.303s] [ 92%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.305s] [ 94%] [32mBuilding C object CMakeFiles/octomap_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.320s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/octomap_msgs/octomap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.321s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.327s] [100%] [32m[1mLinking C shared library rosidl_generator_py/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.379s] [100%] Built target octomap_msgs__rosidl_typesupport_c__pyext
+[5.379s] [100%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.382s] [100%] Built target octomap_msgs__rosidl_typesupport_introspection_c__pyext
+[5.399s] Invoked command in '/home/james/drone_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/octomap_msgs -- -j20 -l20
+[5.568s] Invoking command in '/home/james/drone_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/octomap_msgs
+[5.576s] -- Install configuration: ""
+[5.576s] -- Execute custom install script
+[5.577s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/ament_index/resource_index/rosidl_interfaces/octomap_msgs
+[5.587s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__functions.h
+[5.595s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.h
+[5.607s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__type_support.h
+[5.619s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__functions.h
+[5.630s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.h
+[5.640s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.h
+[5.650s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap.h
+[5.662s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.h
+[5.671s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.680s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/bounding_box_query.h
+[5.689s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__functions.h
+[5.698s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__struct.h
+[5.709s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__type_support.h
+[5.718s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__functions.h
+[5.727s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__struct.h
+[5.739s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__type_support.h
+[5.752s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/get_octomap.h
+[5.762s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/library_path.sh
+[5.774s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/library_path.dsv
+[5.786s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_fastrtps_c.h
+[5.798s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_fastrtps_c.h
+[5.811s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.823s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_fastrtps_c.h
+[5.834s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_fastrtps_c.h
+[5.844s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_introspection_c.h
+[5.853s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_introspection_c.h
+[5.864s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.873s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_introspection_c.h
+[5.881s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_introspection_c.h
+[5.894s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__builder.hpp
+[5.907s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp
+[5.918s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp
+[5.928s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp
+[5.938s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp
+[5.949s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp
+[5.960s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap.hpp
+[5.970s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp
+[5.980s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/bounding_box_query.hpp
+[5.991s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__builder.hpp
+[5.999s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__struct.hpp
+[6.010s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__traits.hpp
+[6.017s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__builder.hpp
+[6.028s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__struct.hpp
+[6.036s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__traits.hpp
+[6.046s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/get_octomap.hpp
+[6.057s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[6.065s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.076s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.087s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_fastrtps_cpp.hpp
+[6.096s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_introspection_cpp.hpp
+[6.118s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[6.126s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_introspection_cpp.hpp
+[6.134s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_introspection_cpp.hpp
+[6.147s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/pythonpath.sh
+[6.156s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/pythonpath.dsv
+[6.167s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[6.175s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[6.183s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[6.192s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[6.204s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/__init__.py
+[6.216s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_c.c
+[6.225s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.234s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.244s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/liboctomap_msgs__rosidl_generator_py.so
+[6.254s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/__init__.py
+[6.264s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap.py
+[6.272s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_s.c
+[6.281s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_with_pose.py
+[6.292s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_with_pose_s.c
+[6.302s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.311s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.319s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.327s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/__init__.py
+[6.338s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_bounding_box_query.py
+[6.347s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_bounding_box_query_s.c
+[6.358s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_get_octomap.py
+[6.367s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_get_octomap_s.c
+[6.379s] -- Up-to-date symlink: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.379s] -- Up-to-date symlink: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.379s] -- Up-to-date symlink: /home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.379s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/msg/Octomap.idl
+[6.390s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.idl
+[6.402s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.idl
+[6.412s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.idl
+[6.423s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/msg/Octomap.msg
+[6.433s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.msg
+[6.442s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.srv
+[6.452s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Request.msg
+[6.461s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Response.msg
+[6.469s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.srv
+[6.478s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Request.msg
+[6.488s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Response.msg
+[6.497s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/ament_index/resource_index/package_run_dependencies/octomap_msgs
+[6.507s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/ament_index/resource_index/parent_prefix_path/octomap_msgs
+[6.519s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/ament_prefix_path.sh
+[6.529s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/ament_prefix_path.dsv
+[6.538s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/path.sh
+[6.546s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/environment/path.dsv
+[6.557s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/local_setup.bash
+[6.566s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/local_setup.sh
+[6.573s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/local_setup.zsh
+[6.585s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/local_setup.dsv
+[6.593s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.dsv
+[6.603s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/ament_index/resource_index/packages/octomap_msgs
+[6.612s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake-extras.cmake
+[6.623s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.632s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.641s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.650s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.661s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.669s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.680s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig.cmake
+[6.689s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig-version.cmake
+[6.698s] -- Symlinking: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.xml
+[6.708s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_c.so
+[6.708s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_c.so" to ""
+[6.709s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so
+[6.709s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.709s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_c.so
+[6.709s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.709s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_c.so
+[6.709s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_c.so" to ""
+[6.710s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.710s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.710s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_cpp.so
+[6.710s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.710s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_cpp.so
+[6.710s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_cpp.so" to ""
+[6.748s] Listing '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs'...
+[6.748s] Compiling '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/__init__.py'...
+[6.748s] Listing '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg'...
+[6.748s] Compiling '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/__init__.py'...
+[6.748s] Compiling '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap.py'...
+[6.748s] Compiling '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_with_pose.py'...
+[6.748s] Listing '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv'...
+[6.748s] Compiling '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/__init__.py'...
+[6.748s] Compiling '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_bounding_box_query.py'...
+[6.748s] Compiling '/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_get_octomap.py'...
+[6.752s] -- Installing: /home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_py.so
+[6.752s] -- Set runtime path of "/home/james/drone_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_py.so" to ""
+[6.752s] -- Up-to-date: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs
+[6.752s] -- Up-to-date: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs
+[6.753s] -- Installing: /home/james/drone_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/conversions.h
+[6.753s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cExport.cmake
+[6.753s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.753s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.753s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.753s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.753s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.754s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cExport.cmake
+[6.754s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.754s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cppExport.cmake
+[6.754s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.754s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.754s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.755s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.755s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cppExport.cmake
+[6.755s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.755s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_pyExport.cmake
+[6.755s] -- Installing: /home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.757s] Invoked command in '/home/james/drone_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/octomap_msgs

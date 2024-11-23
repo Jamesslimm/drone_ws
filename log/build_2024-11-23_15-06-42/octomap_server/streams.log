@@ -1,0 +1,243 @@
+[0.017s] Invoking command in '/home/james/drone_ws/build/octomap_server': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_server
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.283s] -- Checking for module 'eigen3'
+[0.296s] --   Found eigen3, version 3.4.0
+[0.327s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.327s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.357s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.371s] -- Checking for module 'flann'
+[0.383s] --   Found flann, version 1.9.1
+[0.431s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.431s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.461s] -- Looking for pthread.h
+[0.520s] -- Looking for pthread.h - found
+[0.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.586s] -- Found Threads: TRUE  
+[0.589s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.599s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.740s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.741s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.743s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.752s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.766s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.781s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.878s] -- Found X11: /usr/include   
+[0.879s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.948s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.948s] -- Looking for gethostbyname
+[1.011s] -- Looking for gethostbyname - found
+[1.011s] -- Looking for connect
+[1.078s] -- Looking for connect - found
+[1.078s] -- Looking for remove
+[1.145s] -- Looking for remove - found
+[1.145s] -- Looking for shmat
+[1.209s] -- Looking for shmat - found
+[1.209s] -- Looking for IceConnectionNumber in ICE
+[1.290s] -- Looking for IceConnectionNumber in ICE - found
+[1.380s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.384s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.387s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.389s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.426s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.435s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.439s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.445s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.525s] -- Checking for module 'libusb-1.0'
+[1.541s] --   Found libusb-1.0, version 1.0.25
+[1.594s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.596s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.596s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.666s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.666s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.666s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.791s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.798s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.803s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.928s] -- Found Qhull version 8.0.2
+[2.046s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.163s] -- looking for PCL_COMMON
+[2.164s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.164s] -- looking for PCL_KDTREE
+[2.165s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.165s] -- looking for PCL_OCTREE
+[2.165s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.165s] -- looking for PCL_SEARCH
+[2.166s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.166s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.167s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.167s] -- looking for PCL_FILTERS
+[2.167s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.168s] -- looking for PCL_2D
+[2.168s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.168s] -- looking for PCL_GEOMETRY
+[2.168s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.168s] -- looking for PCL_IO
+[2.169s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.169s] -- looking for PCL_FEATURES
+[2.170s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.170s] -- looking for PCL_ML
+[2.171s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.171s] -- looking for PCL_SEGMENTATION
+[2.171s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.172s] -- looking for PCL_VISUALIZATION
+[2.172s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.173s] -- looking for PCL_SURFACE
+[2.173s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.174s] -- looking for PCL_REGISTRATION
+[2.174s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.175s] -- looking for PCL_KEYPOINTS
+[2.175s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.176s] -- looking for PCL_TRACKING
+[2.176s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.177s] -- looking for PCL_RECOGNITION
+[2.177s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.177s] -- looking for PCL_STEREO
+[2.178s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.178s] -- looking for PCL_APPS
+[2.179s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.179s] -- looking for PCL_IN_HAND_SCANNER
+[2.180s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.180s] -- looking for PCL_MODELER
+[2.180s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.180s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.181s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.181s] -- looking for PCL_OUTOFCORE
+[2.182s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.182s] -- looking for PCL_PEOPLE
+[2.183s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.183s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.186s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.486s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.655s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.660s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.668s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.772s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.775s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.876s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.901s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.076s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.077s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.077s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.295s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.320s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.321s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.323s] -- Configured cppcheck include dirs: /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server/include
+[3.323s] -- Configured cppcheck exclude dirs and/or files: 
+[3.324s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.324s] -- Configured cpplint exclude dirs and/or files: 
+[3.325s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.325s] -- Added test 'lint_cmake' to check CMake code style
+[3.326s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.327s] -- Added test 'uncrustify' to check C / C++ code style
+[3.327s] -- Configured uncrustify additional arguments: 
+[3.327s] -- Added test 'xmllint' to check XML markup files
+[3.329s] -- Configuring done
+[3.494s] -- Generating done
+[3.497s] -- Build files have been written to: /home/james/drone_ws/build/octomap_server
+[3.513s] Invoked command in '/home/james/drone_ws/build/octomap_server' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_server
+[3.514s] Invoking command in '/home/james/drone_ws/build/octomap_server': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_server -- -j20 -l20
+[3.563s] [  3%] [32mBuilding CXX object CMakeFiles/octomap_server_multilayer_node.dir/rclcpp_components/node_main_octomap_server_multilayer_node.cpp.o[0m
+[3.564s] [  7%] [32mBuilding CXX object CMakeFiles/color_octomap_server_node.dir/rclcpp_components/node_main_color_octomap_server_node.cpp.o[0m
+[3.567s] [ 11%] [32mBuilding CXX object CMakeFiles/octomap_server_static_node.dir/rclcpp_components/node_main_octomap_server_static_node.cpp.o[0m
+[3.567s] [ 15%] [32mBuilding CXX object CMakeFiles/octomap_server_node.dir/rclcpp_components/node_main_octomap_server_node.cpp.o[0m
+[3.568s] [ 19%] [32mBuilding CXX object CMakeFiles/tracking_octomap_server_node.dir/rclcpp_components/node_main_tracking_octomap_server_node.cpp.o[0m
+[3.570s] [ 23%] [32mBuilding CXX object CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o[0m
+[3.571s] [ 26%] [32mBuilding CXX object CMakeFiles/octomap_saver_node.dir/rclcpp_components/node_main_octomap_saver_node.cpp.o[0m
+[3.598s] [ 30%] [32m[1mLinking CXX executable octomap_server_static_node[0m
+[3.599s] [ 34%] [32m[1mLinking CXX executable color_octomap_server_node[0m
+[3.600s] [ 38%] [32m[1mLinking CXX executable tracking_octomap_server_node[0m
+[3.605s] [ 42%] [32m[1mLinking CXX executable octomap_server_node[0m
+[3.608s] [ 46%] [32m[1mLinking CXX executable octomap_server_multilayer_node[0m
+[3.618s] [ 50%] [32m[1mLinking CXX executable octomap_saver_node[0m
+[3.619s] [ 53%] [32m[1mLinking CXX shared library liboctomap_server_static.so[0m
+[3.751s] [ 53%] Built target color_octomap_server_node
+[3.759s] [ 53%] Built target octomap_server_multilayer_node
+[3.763s] [ 53%] Built target tracking_octomap_server_node
+[3.768s] [ 53%] Built target octomap_server_node
+[3.772s] [ 53%] Built target octomap_saver_node
+[3.805s] [ 53%] Built target octomap_server_static_node
+[4.054s] [ 53%] Built target octomap_server_static
+[4.075s] [ 57%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o[0m
+[4.212s] [ 61%] [32m[1mLinking CXX shared library liboctomap_server.so[0m
+[5.465s] [ 61%] Built target octomap_server
+[5.487s] [ 65%] [32mBuilding CXX object CMakeFiles/octomap_server_multilayer.dir/src/octomap_server.cpp.o[0m
+[5.490s] [ 69%] [32mBuilding CXX object CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o[0m
+[5.535s] [ 73%] [32m[1mLinking CXX shared library liboctomap_server_multilayer.so[0m
+[6.997s] [ 73%] Built target octomap_server_multilayer
+[7.018s] [ 76%] [32mBuilding CXX object CMakeFiles/tracking_octomap_server.dir/src/octomap_server.cpp.o[0m
+[7.019s] [ 80%] [32mBuilding CXX object CMakeFiles/tracking_octomap_server.dir/src/tracking_octomap_server.cpp.o[0m
+[7.062s] [ 84%] [32m[1mLinking CXX shared library libtracking_octomap_server.so[0m
+[8.535s] [ 84%] Built target tracking_octomap_server
+[8.553s] [ 88%] [32mBuilding CXX object CMakeFiles/color_octomap_server.dir/src/octomap_server.cpp.o[0m
+[8.594s] [ 92%] [32m[1mLinking CXX shared library libcolor_octomap_server.so[0m
+[9.921s] [ 92%] Built target color_octomap_server
+[9.939s] [ 96%] [32mBuilding CXX object CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o[0m
+[9.962s] [100%] [32m[1mLinking CXX shared library liboctomap_saver.so[0m
+[10.343s] [100%] Built target octomap_saver
+[10.353s] Invoked command in '/home/james/drone_ws/build/octomap_server' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_server -- -j20 -l20
+[10.421s] Invoking command in '/home/james/drone_ws/build/octomap_server': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_server
+[10.427s] -- Install configuration: ""
+[10.427s] -- Execute custom install script
+[10.428s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/octomap_server/octomap_server_static_node
+[10.434s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/octomap_server/octomap_server_node
+[10.441s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/octomap_server/octomap_server_multilayer_node
+[10.449s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/octomap_server/tracking_octomap_server_node
+[10.460s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/octomap_server/color_octomap_server_node
+[10.467s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/octomap_server/octomap_saver_node
+[10.475s] -- Symlinking: /home/james/drone_ws/install/octomap_server/include/octomap_server/octomap_server.hpp
+[10.480s] -- Symlinking: /home/james/drone_ws/install/octomap_server/include/octomap_server/octomap_server_multilayer.hpp
+[10.487s] -- Symlinking: /home/james/drone_ws/install/octomap_server/include/octomap_server/octomap_server_static.hpp
+[10.496s] -- Symlinking: /home/james/drone_ws/install/octomap_server/include/octomap_server/tracking_octomap_server.hpp
+[10.502s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/environment/library_path.sh
+[10.508s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/environment/library_path.dsv
+[10.516s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/liboctomap_server_static.so
+[10.521s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/liboctomap_server.so
+[10.528s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/liboctomap_server_multilayer.so
+[10.538s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/libtracking_octomap_server.so
+[10.547s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/libcolor_octomap_server.so
+[10.556s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/liboctomap_saver.so
+[10.563s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/launch/octomap_liosam_yonsei-hall-4_mapping.launch.xml
+[10.574s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/launch/octomap_m2dgr_mapping.launch.xml
+[10.583s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/launch/octomap_mapping.launch.xml
+[10.594s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/launch/octomap_tracking_client.launch.xml
+[10.605s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/launch/octomap_tracking_server.launch.xml
+[10.612s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/launch/octomap_turtlebot_mapping.launch.xml
+[10.624s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/launch/octomap_yonsei-hall-4_mapping.launch.xml
+[10.630s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/params/default.yaml
+[10.639s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/ament_index/resource_index/package_run_dependencies/octomap_server
+[10.650s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/ament_index/resource_index/parent_prefix_path/octomap_server
+[10.660s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/environment/ament_prefix_path.sh
+[10.667s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/environment/ament_prefix_path.dsv
+[10.674s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/environment/path.sh
+[10.683s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/environment/path.dsv
+[10.691s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/local_setup.bash
+[10.697s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/local_setup.sh
+[10.705s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/local_setup.zsh
+[10.712s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/local_setup.dsv
+[10.720s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/package.dsv
+[10.728s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/ament_index/resource_index/packages/octomap_server
+[10.738s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/ament_index/resource_index/rclcpp_components/octomap_server
+[10.745s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.754s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.760s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/cmake/ament_cmake_export_libraries-extras.cmake
+[10.768s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/cmake/octomap_serverConfig.cmake
+[10.776s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/cmake/octomap_serverConfig-version.cmake
+[10.782s] -- Symlinking: /home/james/drone_ws/install/octomap_server/share/octomap_server/package.xml
+[10.789s] -- Symlinking: /home/james/drone_ws/install/octomap_server/lib/octomap_server/octomap_eraser_cli.py
+[10.797s] Invoked command in '/home/james/drone_ws/build/octomap_server' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_server

@@ -1,0 +1,871 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74d2ac580b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74d2ac68d810>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74d2ac68d810>>, mixin_verb=('build',))
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.097s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/james/drone_ws'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'ros'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extensions ['cmake', 'python']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'cmake'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'python'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extensions ['python_setup_py']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2) by extension 'python_setup_py'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'ros'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extensions ['cmake', 'python']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'cmake'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'python'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extensions ['python_setup_py']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/imgs) by extension 'python_setup_py'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'ros'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extensions ['cmake', 'python']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'cmake'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'python'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extensions ['python_setup_py']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping) by extension 'python_setup_py'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_mapping) by extension 'ros'
+[0.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/octomap_mapping/octomap_mapping' with type 'ros.ament_cmake' and name 'octomap_mapping'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_msgs) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/octomap_mapping/octomap_msgs' with type 'ros.ament_cmake' and name 'octomap_msgs'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_ros) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/octomap_mapping/octomap_ros' with type 'ros.ament_cmake' and name 'octomap_ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/octomap_mapping/octomap_server) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/octomap_mapping/octomap_server' with type 'ros.ament_cmake' and name 'octomap_server'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/rtabmap_launch) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/rtabmap_launch' with type 'ros.ament_cmake' and name 'rtabmap_launch'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_bringup) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/sjtu_drone_bringup' with type 'ros.ament_python' and name 'sjtu_drone_bringup'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_control) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/sjtu_drone_control' with type 'ros.ament_python' and name 'sjtu_drone_control'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/sjtu_drone_description) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/sjtu_drone_description' with type 'ros.ament_cmake' and name 'sjtu_drone_description'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolobot_recognition) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/yolobot_recognition' with type 'ros.ament_cmake' and name 'yolobot_recognition'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ros2/yolov8_msgs) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ros2/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'ros'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/james/turtlebot3_ws/install
+[0.138s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 505 installed packages in /opt/ros/humble
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.181s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'rtabmap_launch' is in: /opt/ros/humble
+	'octomap_msgs' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding octomap_msgs rtabmap_launch
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/octomap_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/octomap_msgs', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/rtabmap_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/rtabmap_launch', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/rtabmap_launch', 'symlink_install': True, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/sjtu_drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/sjtu_drone_bringup', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/sjtu_drone_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/sjtu_drone_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/sjtu_drone_control', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/sjtu_drone_control', 'symlink_install': True, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/sjtu_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/sjtu_drone_description', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/sjtu_drone_description', 'symlink_install': True, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/yolobot_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/yolobot_recognition', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/yolobot_recognition', 'symlink_install': True, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/yolov8_msgs', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/yolov8_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/octomap_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/octomap_ros', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_ros', 'symlink_install': True, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/octomap_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/octomap_server', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server', 'symlink_install': True, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'octomap_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/drone_ws/build/octomap_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/drone_ws/install/octomap_mapping', 'merge_install': False, 'path': '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_mapping', 'symlink_install': True, 'test_result_base': None}
+[0.185s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs'
+[0.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.193s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/rtabmap_launch' with build type 'ament_cmake'
+[0.193s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/rtabmap_launch'
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/sjtu_drone_bringup' with build type 'ament_python'
+[0.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'ament_prefix_path')
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.ps1'
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.dsv'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.sh'
+[0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.202s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/sjtu_drone_control' with build type 'ament_python'
+[0.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'ament_prefix_path')
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.ps1'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.dsv'
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.sh'
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/sjtu_drone_description' with build type 'ament_cmake'
+[0.207s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/sjtu_drone_description'
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/yolobot_recognition' with build type 'ament_cmake'
+[0.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/yolobot_recognition'
+[0.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.215s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/yolov8_msgs' with build type 'ament_cmake'
+[0.215s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/yolov8_msgs'
+[0.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_msgs
+[0.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/rtabmap_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/rtabmap_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/rtabmap_launch
+[0.418s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/drone_ws/src/drone_ros2/sjtu_drone_bringup'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/drone_ws/src/drone_ros2/sjtu_drone_control'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/sjtu_drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/sjtu_drone_description
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/yolobot_recognition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/yolobot_recognition
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/yolov8_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/yolov8_msgs
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/sjtu_drone_bringup': PYTHONPATH=/home/james/drone_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/drone_ws/build/sjtu_drone_bringup/build --no-deps symlink_data
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/sjtu_drone_control': PYTHONPATH=/home/james/drone_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/drone_ws/build/sjtu_drone_control/build --no-deps symlink_data
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/rtabmap_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/rtabmap_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/rtabmap_launch
+[1.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/rtabmap_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/rtabmap_launch -- -j20 -l20
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/rtabmap_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/rtabmap_launch -- -j20 -l20
+[1.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/rtabmap_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/rtabmap_launch
+[1.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_launch)
+[1.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/rtabmap_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/rtabmap_launch
+[1.647s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch' for CMake module files
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch' for CMake config files
+[1.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_launch', 'cmake_prefix_path')
+[1.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/hook/cmake_prefix_path.ps1'
+[1.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/hook/cmake_prefix_path.dsv'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/hook/cmake_prefix_path.sh'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/bin'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/lib/pkgconfig/rtabmap_launch.pc'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/lib/python3.10/site-packages'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/bin'
+[1.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.dsv'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.sh'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.bash'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.zsh'
+[1.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/rtabmap_launch/share/colcon-core/packages/rtabmap_launch)
+[1.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_launch)
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch' for CMake module files
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch' for CMake config files
+[1.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_launch', 'cmake_prefix_path')
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/hook/cmake_prefix_path.ps1'
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/hook/cmake_prefix_path.dsv'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/hook/cmake_prefix_path.sh'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/bin'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/lib/pkgconfig/rtabmap_launch.pc'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/lib/python3.10/site-packages'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/rtabmap_launch/bin'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.dsv'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.sh'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.bash'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/rtabmap_launch/share/rtabmap_launch/package.zsh'
+[1.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/rtabmap_launch/share/colcon-core/packages/rtabmap_launch)
+[1.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'pythonpath_develop')
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/build/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath_develop.ps1'
+[1.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/sjtu_drone_control' returned '0': PYTHONPATH=/home/james/drone_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/drone_ws/build/sjtu_drone_control/build --no-deps symlink_data
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/build/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath_develop.dsv'
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/build/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath_develop.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_control' for CMake module files
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_control' for CMake config files
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_control/lib'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_control/bin'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_control/lib/pkgconfig/sjtu_drone_control.pc'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_control/lib/python3.10/site-packages'
+[1.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'pythonpath')
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.sh'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_control/bin'
+[1.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_control)
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.dsv'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.sh'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.bash'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.zsh'
+[1.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/sjtu_drone_control/share/colcon-core/packages/sjtu_drone_control)
+[1.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'pythonpath_develop')
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/build/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath_develop.ps1'
+[1.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/build/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath_develop.dsv'
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/james/drone_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/drone_ws/build/sjtu_drone_bringup/build --no-deps symlink_data
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/build/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath_develop.sh'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_bringup' for CMake module files
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_bringup' for CMake config files
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_bringup/lib'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_bringup/bin'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_bringup/lib/pkgconfig/sjtu_drone_bringup.pc'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages'
+[1.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'pythonpath')
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.dsv'
+[1.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.sh'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_bringup/bin'
+[1.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_bringup)
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.dsv'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.sh'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.bash'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.zsh'
+[1.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/sjtu_drone_bringup/share/colcon-core/packages/sjtu_drone_bringup)
+[2.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_msgs
+[2.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/octomap_msgs -- -j20 -l20
+[2.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/yolov8_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/yolov8_msgs
+[2.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/yolov8_msgs -- -j20 -l20
+[3.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/yolobot_recognition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/yolobot_recognition
+[3.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/yolobot_recognition -- -j20 -l20
+[3.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/yolobot_recognition -- -j20 -l20
+[3.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/yolobot_recognition
+[4.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/sjtu_drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/sjtu_drone_description
+[4.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/sjtu_drone_description -- -j20 -l20
+[4.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/yolov8_msgs -- -j20 -l20
+[5.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/yolov8_msgs
+[5.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/octomap_msgs -- -j20 -l20
+[5.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/octomap_msgs
+[5.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[5.962s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs' for CMake module files
+[5.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/yolov8_msgs
+[5.963s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs' for CMake config files
+[5.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[5.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[5.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[5.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[5.965s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/lib'
+[5.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[5.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[5.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[5.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/bin'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/lib/python3.10/site-packages'
+[5.967s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/bin'
+[5.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[5.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[5.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[5.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[5.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[5.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[6.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[6.086s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs' for CMake module files
+[6.086s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs' for CMake config files
+[6.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[6.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[6.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[6.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[6.088s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/lib'
+[6.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[6.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[6.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[6.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[6.089s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/bin'
+[6.089s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[6.090s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/lib/python3.10/site-packages'
+[6.090s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolov8_msgs/bin'
+[6.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[6.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[6.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[6.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[6.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_msgs)
+[6.944s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs' for CMake module files
+[6.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/octomap_msgs
+[6.946s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs' for CMake config files
+[6.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'cmake_prefix_path')
+[6.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.ps1'
+[6.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.dsv'
+[6.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.sh'
+[6.949s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/lib'
+[6.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'ld_library_path_lib')
+[6.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.ps1'
+[6.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.dsv'
+[6.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.sh'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/bin'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/lib/pkgconfig/octomap_msgs.pc'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/lib/python3.10/site-packages'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/bin'
+[6.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.ps1'
+[6.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.dsv'
+[6.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.sh'
+[6.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.bash'
+[6.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.zsh'
+[6.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_msgs/share/colcon-core/packages/octomap_msgs)
+[7.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_msgs)
+[7.101s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs' for CMake module files
+[7.102s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs' for CMake config files
+[7.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'cmake_prefix_path')
+[7.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.ps1'
+[7.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.dsv'
+[7.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.sh'
+[7.106s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/lib'
+[7.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'ld_library_path_lib')
+[7.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.ps1'
+[7.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.dsv'
+[7.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.sh'
+[7.108s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/bin'
+[7.108s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/lib/pkgconfig/octomap_msgs.pc'
+[7.108s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/lib/python3.10/site-packages'
+[7.108s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_msgs/bin'
+[7.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.ps1'
+[7.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.dsv'
+[7.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.sh'
+[7.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.bash'
+[7.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_msgs/share/octomap_msgs/package.zsh'
+[7.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_msgs/share/colcon-core/packages/octomap_msgs)
+[7.112s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_ros' with build type 'ament_cmake'
+[7.112s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_ros'
+[7.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.113s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_ros': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_ros
+[8.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_ros' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_ros
+[8.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_ros': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_ros -- -j20 -l20
+[8.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_ros' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_ros -- -j20 -l20
+[8.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_ros': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_ros
+[8.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_ros)
+[8.779s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros' for CMake module files
+[8.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_ros' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_ros
+[8.780s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros' for CMake config files
+[8.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_ros', 'cmake_prefix_path')
+[8.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/cmake_prefix_path.ps1'
+[8.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/cmake_prefix_path.dsv'
+[8.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/cmake_prefix_path.sh'
+[8.781s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/lib'
+[8.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_ros', 'ld_library_path_lib')
+[8.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/ld_library_path_lib.ps1'
+[8.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/ld_library_path_lib.dsv'
+[8.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/ld_library_path_lib.sh'
+[8.782s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/bin'
+[8.782s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/lib/pkgconfig/octomap_ros.pc'
+[8.782s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/lib/python3.10/site-packages'
+[8.782s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/bin'
+[8.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.ps1'
+[8.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.dsv'
+[8.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.sh'
+[8.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.bash'
+[8.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.zsh'
+[8.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_ros/share/colcon-core/packages/octomap_ros)
+[8.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_ros)
+[8.817s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros' for CMake module files
+[8.817s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros' for CMake config files
+[8.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_ros', 'cmake_prefix_path')
+[8.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/cmake_prefix_path.ps1'
+[8.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/cmake_prefix_path.dsv'
+[8.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/cmake_prefix_path.sh'
+[8.819s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/lib'
+[8.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_ros', 'ld_library_path_lib')
+[8.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/ld_library_path_lib.ps1'
+[8.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/ld_library_path_lib.dsv'
+[8.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/hook/ld_library_path_lib.sh'
+[8.820s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/bin'
+[8.820s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/lib/pkgconfig/octomap_ros.pc'
+[8.820s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/lib/python3.10/site-packages'
+[8.821s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_ros/bin'
+[8.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.ps1'
+[8.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.dsv'
+[8.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.sh'
+[8.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.bash'
+[8.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_ros/share/octomap_ros/package.zsh'
+[8.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_ros/share/colcon-core/packages/octomap_ros)
+[8.823s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server' with build type 'ament_cmake'
+[8.823s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server'
+[8.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_server': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_server
+[8.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/drone_ws/build/sjtu_drone_description -- -j20 -l20
+[9.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/sjtu_drone_description
+[9.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[9.300s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description' for CMake module files
+[9.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/sjtu_drone_description
+[9.302s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description' for CMake config files
+[9.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[9.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[9.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[9.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[9.303s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/lib'
+[9.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[9.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[9.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[9.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/bin'
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[9.305s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/lib/python3.10/site-packages'
+[9.305s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/bin'
+[9.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[9.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[9.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[9.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[9.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[9.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[9.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[9.340s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description' for CMake module files
+[9.340s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description' for CMake config files
+[9.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[9.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[9.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[9.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[9.342s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/lib'
+[9.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[9.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[9.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[9.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[9.343s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/bin'
+[9.343s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[9.343s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/lib/python3.10/site-packages'
+[9.343s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/sjtu_drone_description/bin'
+[9.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[9.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[9.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[9.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[9.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[9.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[12.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_server' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_server
+[12.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_server': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_server -- -j20 -l20
+[19.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_server' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_server -- -j20 -l20
+[19.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_server': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_server
+[19.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_server)
+[19.620s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server' for CMake module files
+[19.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_server' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_server
+[19.621s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server' for CMake config files
+[19.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server', 'cmake_prefix_path')
+[19.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/cmake_prefix_path.ps1'
+[19.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/cmake_prefix_path.dsv'
+[19.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/cmake_prefix_path.sh'
+[19.622s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/lib'
+[19.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server', 'ld_library_path_lib')
+[19.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/ld_library_path_lib.ps1'
+[19.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/ld_library_path_lib.dsv'
+[19.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/ld_library_path_lib.sh'
+[19.623s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/bin'
+[19.623s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/lib/pkgconfig/octomap_server.pc'
+[19.624s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/lib/python3.10/site-packages'
+[19.624s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/bin'
+[19.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.ps1'
+[19.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.dsv'
+[19.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.sh'
+[19.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.bash'
+[19.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.zsh'
+[19.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_server/share/colcon-core/packages/octomap_server)
+[19.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_server)
+[19.687s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server' for CMake module files
+[19.687s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server' for CMake config files
+[19.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server', 'cmake_prefix_path')
+[19.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/cmake_prefix_path.ps1'
+[19.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/cmake_prefix_path.dsv'
+[19.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/cmake_prefix_path.sh'
+[19.688s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/lib'
+[19.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server', 'ld_library_path_lib')
+[19.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/ld_library_path_lib.ps1'
+[19.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/ld_library_path_lib.dsv'
+[19.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_server/share/octomap_server/hook/ld_library_path_lib.sh'
+[19.689s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/bin'
+[19.689s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/lib/pkgconfig/octomap_server.pc'
+[19.689s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/lib/python3.10/site-packages'
+[19.690s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_server/bin'
+[19.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.ps1'
+[19.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.dsv'
+[19.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.sh'
+[19.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.bash'
+[19.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_server/share/octomap_server/package.zsh'
+[19.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_server/share/colcon-core/packages/octomap_server)
+[19.691s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_mapping' with build type 'ament_cmake'
+[19.692s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_mapping'
+[19.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_mapping': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_server/lib:/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_mapping
+[20.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_mapping' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_server/lib:/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/drone_ws/install/octomap_mapping
+[20.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_mapping': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_server/lib:/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_mapping -- -j20 -l20
+[20.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_mapping' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_server/lib:/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/drone_ws/build/octomap_mapping -- -j20 -l20
+[20.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/drone_ws/build/octomap_mapping': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_server/lib:/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_mapping
+[20.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_mapping)
+[20.623s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping' for CMake module files
+[20.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/octomap_mapping' returned '0': AMENT_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/drone_ws/install/octomap_server:/home/james/drone_ws/install/octomap_ros:/home/james/drone_ws/install/octomap_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/drone_ws/install/octomap_server/lib:/home/james/drone_ws/install/octomap_ros/lib:/home/james/drone_ws/install/octomap_msgs/lib:/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/drone_ws/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/drone_ws/build/octomap_mapping
+[20.624s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping' for CMake config files
+[20.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_mapping', 'cmake_prefix_path')
+[20.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/hook/cmake_prefix_path.ps1'
+[20.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/hook/cmake_prefix_path.dsv'
+[20.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/hook/cmake_prefix_path.sh'
+[20.625s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/bin'
+[20.626s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/lib/pkgconfig/octomap_mapping.pc'
+[20.626s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/lib/python3.10/site-packages'
+[20.626s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/bin'
+[20.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.ps1'
+[20.627s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.dsv'
+[20.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.sh'
+[20.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.bash'
+[20.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.zsh'
+[20.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_mapping/share/colcon-core/packages/octomap_mapping)
+[20.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_mapping)
+[20.649s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping' for CMake module files
+[20.649s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping' for CMake config files
+[20.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_mapping', 'cmake_prefix_path')
+[20.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/hook/cmake_prefix_path.ps1'
+[20.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/hook/cmake_prefix_path.dsv'
+[20.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/hook/cmake_prefix_path.sh'
+[20.651s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/bin'
+[20.651s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/lib/pkgconfig/octomap_mapping.pc'
+[20.651s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/lib/python3.10/site-packages'
+[20.651s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/octomap_mapping/bin'
+[20.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.ps1'
+[20.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.dsv'
+[20.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.sh'
+[20.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.bash'
+[20.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/octomap_mapping/share/octomap_mapping/package.zsh'
+[20.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/octomap_mapping/share/colcon-core/packages/octomap_mapping)
+[194.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[194.949s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition' for CMake module files
+[194.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/drone_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/drone_ws/build/yolobot_recognition
+[194.950s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition' for CMake config files
+[194.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[194.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[194.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[194.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[194.952s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/lib'
+[194.952s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/bin'
+[194.952s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[194.952s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/lib/python3.10/site-packages'
+[194.953s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/bin'
+[194.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[194.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[194.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[194.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[194.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[194.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[194.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[194.981s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition' for CMake module files
+[194.981s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition' for CMake config files
+[194.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[194.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[194.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[194.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[194.983s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/lib'
+[194.983s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/bin'
+[194.983s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[194.983s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/lib/python3.10/site-packages'
+[194.983s] Level 1:colcon.colcon_core.environment:checking '/home/james/drone_ws/install/yolobot_recognition/bin'
+[194.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[194.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[194.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[194.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[194.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/drone_ws/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[194.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/drone_ws/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[194.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[194.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[194.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[194.985s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[194.991s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[194.991s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[194.991s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[195.009s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[195.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/drone_ws/install/local_setup.ps1'
+[195.010s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/james/drone_ws/install/_local_setup_util_ps1.py'
+[195.011s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/drone_ws/install/setup.ps1'
+[195.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/drone_ws/install/local_setup.sh'
+[195.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/james/drone_ws/install/_local_setup_util_sh.py'
+[195.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/drone_ws/install/setup.sh'
+[195.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/drone_ws/install/local_setup.bash'
+[195.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/drone_ws/install/setup.bash'
+[195.015s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/drone_ws/install/local_setup.zsh'
+[195.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/drone_ws/install/setup.zsh'

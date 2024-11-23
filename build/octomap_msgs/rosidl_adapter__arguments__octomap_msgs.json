@@ -1,0 +1,9 @@
+{
+  "package_name": "octomap_msgs",
+  "non_idl_tuples": [
+    "/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs:msg/Octomap.msg",
+    "/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs:msg/OctomapWithPose.msg",
+    "/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs:srv/BoundingBoxQuery.srv",
+    "/home/james/drone_ws/src/drone_ros2/octomap_mapping/octomap_msgs:srv/GetOctomap.srv"
+  ]
+}

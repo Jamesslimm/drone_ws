@@ -1,0 +1,31 @@
+sudo: required
+language: generic
+
+env:
+  global:
+    - ROS_VERSION="2"
+    - ROS_DISTRO="humble"
+    - COLCON_DEFAULTS="-j4"  # Limit parallel jobs
+  matrix:
+    - BUILD_TYPE="Debug"
+    - BUILD_TYPE="Release"
+
+install:
+  - sudo apt update -qq
+  - sudo apt install -y curl gnupg lsb-release
+  - curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+  - sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
+  - sudo apt update -qq
+  - sudo apt install -y ros-humble-ros-base python3-colcon-common-extensions
+  - source /opt/ros/${ROS_DISTRO}/setup.sh
+
+# Install dependencies and use rosdep to resolve them
+before_script:
+  - rosdep update
+  - rosdep install --from-paths src --ignore-src -r -y
+
+script:
+  - source /opt/ros/${ROS_DISTRO}/setup.sh
+  - colcon build --merge-install --cmake-args -DCMAKE_BUILD_TYPE=${BUILD_TYPE}
+  - colcon test --merge-install
+  - colcon test-result --verbose

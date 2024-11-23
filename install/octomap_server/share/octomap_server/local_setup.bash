@@ -1,0 +1,1 @@
+/home/james/drone_ws/build/octomap_server/ament_cmake_environment_hooks/local_setup.bash

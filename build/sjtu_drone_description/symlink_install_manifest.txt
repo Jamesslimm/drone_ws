@@ -10,8 +10,12 @@
 /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf
 /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf
 /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro
+/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf_copy.xacro
 /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/building_with_solar_panel.world
 /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world
+/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/solar_panel_building (copy).world
+/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/solar_panel_building.world
+/home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/solar_panel_building_2.world
 /home/james/drone_ws/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description
 /home/james/drone_ws/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description
 /home/james/drone_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh
